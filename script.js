@@ -1,12 +1,12 @@
 $(() => {
-    let fil = "";
+    let fil = ""; 
     let prom = "";
     const tab = $("#tab table");
 
     let data = [];
 
     // Prend les données de data.json
-    $.getJSON("data.json", function(datas) {
+    $.getJSON("data.json", function(datas){
         data = datas;
         console.log(data);
     });
@@ -181,3 +181,4 @@ $(() => {
     });
 
 });
+
