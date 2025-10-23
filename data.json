@@ -1,0 +1,127 @@
+{
+    "Informatique L1":{
+        "SEMESTRE 1": {
+            "maj": 3,
+            "min": 2,
+            "tra": 3,
+            "cours": [
+                "Méthodologie scientifique",
+                "Programmation Python",
+                "Architecture des ordinateurs",
+                "Algèbre1",
+                "Mineure au choix",
+                "Anglais 1", 
+                "MTU",
+                "UEO"
+            ],
+            "coeff": [
+                9, 5, 4, 3, 3, 2, 2, 2
+            ]
+        },
+        "SEMESTRE 2": {
+            "maj": 3,
+            "min": 2,
+            "tra": 3,
+            "cours": [
+                "Système d'exploitation et Linux",
+                "Projet Python",
+                "Projet HTML",
+                "Langage C",
+                "Algèbre 2a",
+                "Anglais 2", 
+                "UEO",
+                "Projet professionnel"
+            ],
+            "coeff": [
+                9, 5, 4, 3, 3, 2, 2, 2
+            ]
+        }
+    },
+
+    "Informatique L2":{
+        "SEMESTRE 3": {
+            "maj": 4,
+            "min": 3,
+            "tra": 3,
+            "cours": [
+                "Structure de données 1",
+                "Structure de données 2",
+                "Architecture TCP/IP",
+                "Base de données 1",
+                "Langage C avancé",
+                "Données du web", 
+                "Spé au choix",
+                "Anglais 3",
+                "Culture numérique 1",
+                "UEO"
+            ],
+            "coeff": [
+                3, 3, 6, 3, 3, 3, 3, 2, 2, 2
+            ]
+        },
+        "SEMESTRE 4": {
+            "maj": 4,
+            "min": 3,
+            "tra": 3,
+            "cours": [
+                "Langage Java et POO",
+                "Validation et tests",
+                "Sécurité informatique",
+                "Programmation fonctionnelle",
+                "Intro Proba et Stats",
+                "Méthodes algorithmiques", 
+                "Spé au choix",
+                "Projet professionnel",
+                "Anglais 4",
+                "UEO",
+                "Découverte du monde du travail"
+            ],
+            "coeff": [
+                6, 3, 3, 3, 3, 3, 3, 2, 2, 2
+            ]
+        }
+    },
+
+    "Informatique L3":{
+        "SEMESTRE 5": {
+            "maj": 4,
+            "min": 3,
+            "tra": 3,
+            "cours": [
+                "Analyse de données",
+                "Analyse de données et visualisation",
+                "Théorie des langages",
+                "Compilation",
+                "Génoie logiciel",
+                "Processus stochastiques", 
+                "Spé au choix",
+                "Anglais 5",
+                "Culture numérique 2",
+                "UEO"
+            ],
+            "coeff": [
+                3, 3, 6, 3, 3, 3, 3, 2, 2, 2
+            ]
+        },
+        "SEMESTRE 6": {
+            "maj": 3,
+            "min": 3,
+            "tra": 3,
+            "cours": [
+                "Logique vérification et complexité",
+                "Admin des réseaux et dépl réseaux",
+                "Base de données 2",
+                "Programmation mobile 1",
+                "Programmation web serveur",
+                "Spé au choix", 
+                "Anglais 6",
+                "UEO",
+                "Expérience en milieu professionnel"
+            ],
+            "coeff": [
+                6, 6, 3, 3, 3, 3, 2, 2, 2
+            ]
+        }
+    }
+
+}

@@ -1,0 +1,57 @@
+<head>
+    <title>Calcul Moyenne L1</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="lib/jquery-3.7.1.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Calcul moyenne</h1>
+
+    <!-- /* Choix de la fac + promotiion */ -->
+    <div id="choix_parcours">
+      Filière
+      <select id="filiere_select" name="filiere">
+        <option value="">---</option>
+        <option value="Chimie">Chimie</option>
+        <option value="Informatique">Informatique</option>
+        <option value="Math">Math</option>
+        <option value="MIASHS">MIASHS</option>
+        <option value="Physique">Physique</option>
+        <option value="SPI">SPI</option>
+        <option value="Sciences de la Terre">Sciences de la Terre</option>
+        <option value="Sciences de la Vie">Sciences de la Vie</option>
+        <option value="Prof Agronomie">Prof Agronomie</option>
+      </select>
+
+      <p></p>
+      Promotion
+      <select id="promotion_select" name="promotion">
+        <option value="">---</option>
+        <option value="L1">L1</option>
+        <option value="L2">L2</option>
+        <option value="L3">L3</option>
+        <option value="M1">M1</option>
+        <option value="M2">M2</option>
+      </select>
+      <p></p>
+    </div>
+
+    <h2 id="titre_fil_prom">Sélectionne ta filière et ta promotion</h2>
+
+    <div id="calcul_moyenne">
+      <div id="tab">
+          <table>
+
+          </table>
+          <table>
+
+          </table>
+      </div>
+
+      <div>
+          <h3 id="moy_gen">Moyenne générale : </h3>
+      </div>
+    </div>
+
+</body>
