@@ -1,5 +1,553 @@
 {
-    "Informatique L1":{
+    "Chimie L1": {
+        "SEMESTRE 1": {
+            "maj": 3,
+            "min": 2,
+            "tra": 3,
+            "cours": [
+                "Méthodologie scientifique",
+                "Méthodologie scientifique Chimie",
+                "Architecture de la matière 2",
+                "Architecture de la matière 1",
+                "Spécialité au choix",
+                "Anglais 1",
+                "Méthodologie et Technique Universitaire (MTU)",
+                "UE ouverture"
+            ],
+            "coeff": [
+                6,
+                3,
+                9,
+                3,
+                3,
+                2,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 2": {
+            "maj": 2,
+            "min": 2,
+            "tra": 3,
+            "cours": [
+                "Transformation de la matière 3 et Infochimie 1",
+                "Transformation de la matière 2",
+                "Transformation de la matière 1",
+                "Spécialité au choix",
+                "Anglais 2",
+                "UE ouverture",
+                "Projet professionnel"
+            ],
+            "coeff": [
+                9,
+                9,
+                3,
+                3,
+                2,
+                2,
+                2
+            ]
+        }
+    },
+    "Chimie L1 LAS": {
+        "SEMESTRE 1": {
+            "maj": 3,
+            "min": 2,
+            "tra": 3,
+            "cours": [
+                "Méthodologie scientifique",
+                "Méthodologie scientifique Chimie",
+                "Architecture de la matière 2",
+                "Architecture de la matière 1",
+                "Santé sciences fondamentales et SHS 1",
+                "Anglais 1",
+                "Santé découverte métiers/Projet Perso et Prof",
+                "UE ouverture"
+            ],
+            "coeff": [
+                6,
+                3,
+                9,
+                3,
+                5,
+                2,
+                3,
+                2
+            ]
+        },
+        "SEMESTRE 2": {
+            "maj": 2,
+            "min": 2,
+            "tra": 3,
+            "cours": [
+                "Transformation de la matière 3 et Infochimie 1",
+                "Transformation de la matière 2",
+                "Transformation de la matière 1",
+                "Santé sciences fondamentales et SHS 2",
+                "Santé anglais",
+                "UE ouverture",
+                "Santé  préparation épreuves 1/PPP OPTION SANTE 1"
+            ],
+            "coeff": [
+                9,
+                9,
+                3,
+                5,
+                2,
+                2,
+                5
+            ]
+        }
+    },
+    "Chimie L2": {
+        "SEMESTRE 3": {
+            "maj": 3,
+            "min": 2,
+            "tra": 3,
+            "cours": [
+                "Chimie inorganique 1 et Chimie organique 1",
+                "Atomistique et liaisons chimiques, Spectroscopies 1",
+                "Chimie analytique 1",
+                "Thermodynamique et  Électrochimie 1",
+                "TP chimie expérimentale 1",
+                "Anglais 3",
+                "Culture numérique 1",
+                "UE ouverture"
+            ],
+            "coeff": [
+                6,
+                6,
+                4,
+                4,
+                4,
+                2,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 4": {
+            "maj": 3,
+            "min": 2,
+            "tra": 3,
+            "cours": [
+                "Chimie inorganique 2 et  Chimie organique 2",
+                "TP Chimie inorganique, organique et analytique 1",
+                "Chimie analytique 2",
+                "Cinétique et catalyse",
+                "TP chimie expérimentale 2",
+                "Anglais 4",
+                "UE ouverture",
+                "Découverte du milieu professionnel"
+            ],
+            "coeff": [
+                6,
+                6,
+                4,
+                4,
+                4,
+                2,
+                2,
+                2
+            ]
+        }
+    },
+    "Chimie L2 Métiers de l'enseignement": {
+        "SEMESTRE 3": {
+            "maj": 3,
+            "min": 3,
+            "tra": 3,
+            "cours": [
+                "Chimie inorganique 1 et Chimie organique 1",
+                "Atomistique et liaisons chimiques, Spectroscopies 1",
+                "Chimie analytique 1",
+                "Thermodynamique et  Électrochimie 1",
+                "TP chimie expérimentale 1",
+                "Spécialité Métiers de l'enseignement",
+                "Anglais 3",
+                "Culture numérique 1",
+                "UE ouverture"
+            ],
+            "coeff": [
+                6,
+                6,
+                4,
+                4,
+                4,
+                3,
+                2,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 4": {
+            "maj": 3,
+            "min": 3,
+            "tra": 3,
+            "cours": [
+                "Chimie inorganique 2 et  Chimie organique 2",
+                "TP Chimie inorganique, organique et analytique 1",
+                "Chimie analytique 2",
+                "Cinétique et catalyse",
+                "TP chimie expérimentale 2",
+                "Spécialité Métiers de l'enseignement",
+                "Anglais 4",
+                "UE ouverture",
+                "Découverte du milieu professionnel"
+            ],
+            "coeff": [
+                6,
+                6,
+                4,
+                4,
+                4,
+                3,
+                2,
+                2,
+                2
+            ]
+        }
+    },
+    "Chimie L2 LAS Voie A": {
+        "SEMESTRE 3": {
+            "maj": 3,
+            "min": 2,
+            "tra": 3,
+            "cours": [
+                "Chimie inorganique 1 et Chimie organique 1",
+                "Atomistique et liaisons chimiques, Spectroscopies 1",
+                "Chimie analytique 1",
+                "Thermodynamique et  Électrochimie 1",
+                "TP chimie expérimentale 1",
+                "Anglais 3",
+                "Culture numérique 1",
+                "UE ouverture"
+            ],
+            "coeff": [
+                6,
+                6,
+                4,
+                4,
+                4,
+                2,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 4": {
+            "maj": 3,
+            "min": 2,
+            "tra": 3,
+            "cours": [
+                "Chimie inorganique 2 et  Chimie organique 2",
+                "TP Chimie inorganique, organique et analytique 1",
+                "Chimie analytique 2",
+                "Cinétique et catalyse",
+                "TP chimie expérimentale 2",
+                "Anglais 4",
+                "UE ouverture",
+                "Santé  préparation épreuves 2/PPP OPTION SANTE 2"
+            ],
+            "coeff": [
+                6,
+                6,
+                4,
+                4,
+                4,
+                2,
+                2,
+                5
+            ]
+        }
+    },
+    "Chimie L2 LAS Voie B": {
+        "SEMESTRE 3": {
+            "maj": 3,
+            "min": 3,
+            "tra": 4,
+            "cours": [
+                "Chimie inorganique 1 et Chimie organique 1",
+                "Atomistique et liaisons chimiques, Spectroscopies 1",
+                "Chimie analytique 1",
+                "Thermodynamique et  Électrochimie 1",
+                "TP chimie expérimentale 1",
+                "Santé sciences fondamentales et SHS 1",
+                "Santé découverte métiers/Projet Perso et Prof",
+                "Anglais 3",
+                "Culture numérique 1",
+                "UE ouverture"
+            ],
+            "coeff": [
+                6,
+                6,
+                4,
+                4,
+                4,
+                5,
+                3,
+                2,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 4": {
+            "maj": 3,
+            "min": 3,
+            "tra": 3,
+            "cours": [
+                "Chimie inorganique 2 et  Chimie organique 2",
+                "TP Chimie inorganique, organique et analytique 1",
+                "Chimie analytique 2",
+                "Cinétique et catalyse",
+                "TP chimie expérimentale 2",
+                "Santé sciences fondamentales et SHS 2",
+                "Santé anglais",
+                "UE ouverture",
+                "Santé  préparation épreuves 1/PPP OPTION SANTE 1"
+            ],
+            "coeff": [
+                6,
+                6,
+                4,
+                4,
+                4,
+                5,
+                2,
+                2,
+                5
+            ]
+        }
+    },
+    "Chimie L3": {
+        "SEMESTRE 5": {
+            "maj": 3,
+            "min": 2,
+            "tra": 3,
+            "cours": [
+                "Chimie inorganique 3, Chimie organique 3",
+                "Chimie théorique et physique 1, Spectroscopies 2",
+                "Thermodynamique 2",
+                "TP Chimie organique et analytique 2",
+                "TP Chimie inorganique et analytique 2",
+                "Anglais 5",
+                "Culture numérique 2",
+                "UE ouverture"
+            ],
+            "coeff": [
+                6,
+                6,
+                4,
+                4,
+                4,
+                2,
+                2,
+                2
+            ]
+        }
+    },
+    "Chimie L4": {
+        "SEMESTRE 6": {
+            "maj": 3,
+            "min": 3,
+            "tra": 3,
+            "cours": [
+                "Chimie inorganique 4, Chimie organique 4",
+                "Chimie analytique 3",
+                "Chimie  théorique et physique 2",
+                "Électrochimie 2",
+                "TP Chimie expérimentale 3",
+                "TP Chimie théorique et physique",
+                "Anglais 6",
+                "UE ouverture",
+                "Expérience en milieu professionnel"
+            ],
+            "coeff": [
+                6,
+                3,
+                3,
+                4,
+                4,
+                4,
+                2,
+                2,
+                2
+            ]
+        }
+    },
+    "Chimie L3 Métiers de l'enseignement": {
+        "SEMESTRE 5": {
+            "maj": 3,
+            "min": 3,
+            "tra": 3,
+            "cours": [
+                "Chimie inorganique 3, Chimie organique 3",
+                "Chimie théorique et physique 1, Spectroscopies 2",
+                "Thermodynamique 2",
+                "TP Chimie organique et analytique 2",
+                "TP Chimie inorganique et analytique 2",
+                "Découverte du métier 2",
+                "UE tranversales obligatoires",
+                "Anglais 5",
+                "Culture numérique 2",
+                "UE ouverture"
+            ],
+            "coeff": [
+                6,
+                6,
+                4,
+                4,
+                4,
+                3,
+                0,
+                2,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 6": {
+            "maj": 3,
+            "min": 4,
+            "tra": 3,
+            "cours": [
+                "Chimie inorganique 4, Chimie organique 4",
+                "Chimie analytique 3",
+                "Chimie  théorique et physique 2",
+                "Électrochimie 2",
+                "TP Chimie expérimentale 3",
+                "TP Chimie théorique et physique",
+                "Savoir et didactique 1er degré",
+                "UE tranversales obligatoires",
+                "Anglais 6",
+                "UE ouverture",
+                "Expérience en milieu professionnel"
+            ],
+            "coeff": [
+                6,
+                3,
+                3,
+                4,
+                4,
+                4,
+                3,
+                0,
+                2,
+                2,
+                2
+            ]
+        }
+    },
+    "Chimie L3 LAS": {
+        "SEMESTRE 5": {
+            "maj": 3,
+            "min": 2,
+            "tra": 3,
+            "cours": [
+                "Chimie inorganique 3, Chimie organique 3",
+                "Chimie théorique et physique 1, Spectroscopies 2",
+                "Thermodynamique 2",
+                "TP Chimie organique et analytique 2",
+                "TP Chimie inorganique et analytique 2",
+                "Anglais 5",
+                "Culture numérique 2",
+                "UE ouverture"
+            ],
+            "coeff": [
+                6,
+                6,
+                4,
+                4,
+                4,
+                2,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE6": {
+            "maj": 3,
+            "min": 3,
+            "tra": 3,
+            "cours": [
+                "Chimie inorganique 4, Chimie organique 4",
+                "Chimie analytique 3",
+                "Chimie  théorique et physique 2",
+                "Électrochimie 2",
+                "TP Chimie expérimentale 3",
+                "TP Chimie théorique et physique",
+                "Anglais 6",
+                "UE ouverture",
+                "Santé  préparation épreuves 2/PPP OPTION SANTE 2"
+            ],
+            "coeff": [
+                6,
+                3,
+                3,
+                4,
+                4,
+                4,
+                2,
+                2,
+                5
+            ]
+        }
+    },
+    "Chimie L3 LAS Métiers de l'enseignement": {
+        "SEMESTRE 5": {
+            "maj": 3,
+            "min": 3,
+            "tra": 3,
+            "cours": [
+                "Chimie inorganique 3, Chimie organique 3",
+                "Chimie théorique et physique 1, Spectroscopies 2",
+                "Thermodynamique 2",
+                "TP Chimie organique et analytique 2",
+                "TP Chimie inorganique et analytique 2",
+                "Découverte du métier 2",
+                "Anglais 5",
+                "Culture numérique 2",
+                "UE ouverture"
+            ],
+            "coeff": [
+                6,
+                6,
+                4,
+                4,
+                4,
+                3,
+                2,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE6": {
+            "maj": 3,
+            "min": 4,
+            "tra": 3,
+            "cours": [
+                "Chimie inorganique 4, Chimie organique 4",
+                "Chimie analytique 3",
+                "Chimie  théorique et physique 2",
+                "Électrochimie 2",
+                "TP Chimie expérimentale 3",
+                "TP Chimie théorique et physique",
+                "Savoir et didactique 1er degré",
+                "Anglais 6",
+                "UE ouverture",
+                "Santé  préparation épreuves 2/PPP OPTION SANTE 2"
+            ],
+            "coeff": [
+                6,
+                3,
+                3,
+                4,
+                4,
+                4,
+                3,
+                2,
+                2,
+                5
+            ]
+        }
+    },
+    "Informatique L1": {
         "SEMESTRE 1": {
             "maj": 3,
             "min": 2,
@@ -8,14 +556,21 @@
                 "Méthodologie scientifique",
                 "Programmation Python",
                 "Architecture des ordinateurs",
-                "Algèbre1",
-                "Mineure au choix",
-                "Anglais 1", 
-                "MTU",
-                "UEO"
+                "Algèbre 1",
+                "UE mineure au choix",
+                "Anglais 1",
+                "Méthodologie et Technique Universitaire (MTU)",
+                "UE ouverture"
             ],
             "coeff": [
-                9, 5, 4, 3, 3, 2, 2, 2
+                9,
+                5,
+                4,
+                3,
+                3,
+                2,
+                2,
+                2
             ]
         },
         "SEMESTRE 2": {
@@ -28,17 +583,23 @@
                 "Projet HTML",
                 "Langage C",
                 "Algèbre 2a",
-                "Anglais 2", 
-                "UEO",
+                "Anglais 2",
+                "UE ouverture",
                 "Projet professionnel"
             ],
             "coeff": [
-                9, 5, 4, 3, 3, 2, 2, 2
+                9,
+                5,
+                4,
+                3,
+                3,
+                2,
+                2,
+                2
             ]
         }
     },
-
-    "Informatique L2":{
+    "Informatique L2": {
         "SEMESTRE 3": {
             "maj": 4,
             "min": 3,
@@ -49,14 +610,23 @@
                 "Architecture TCP/IP",
                 "Base de données 1",
                 "Langage C avancé",
-                "Données du web", 
-                "Spé au choix",
+                "Données du web",
+                "Spécialité au choix",
                 "Anglais 3",
                 "Culture numérique 1",
-                "UEO"
+                "UE ouverture"
             ],
             "coeff": [
-                3, 3, 6, 3, 3, 3, 3, 2, 2, 2
+                3,
+                3,
+                6,
+                3,
+                3,
+                3,
+                3,
+                2,
+                2,
+                2
             ]
         },
         "SEMESTRE 4": {
@@ -64,43 +634,59 @@
             "min": 3,
             "tra": 3,
             "cours": [
-                "Langage Java et POO",
+                "Langage Java  et POO",
                 "Validation et tests",
                 "Sécurité informatique",
                 "Programmation fonctionnelle",
-                "Intro Proba et Stats",
-                "Méthodes algorithmiques", 
-                "Spé au choix",
-                "Projet professionnel",
+                "Introduction aux probabilités et statistiques",
+                "Programmation web 1",
+                "Spécialité au choix",
                 "Anglais 4",
-                "UEO",
+                "UE ouverture",
                 "Découverte du monde du travail"
             ],
             "coeff": [
-                6, 3, 3, 3, 3, 3, 3, 2, 2, 2
+                6,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                2,
+                2,
+                2
             ]
         }
     },
-
-    "Informatique L3":{
+    "Informatique L3": {
         "SEMESTRE 5": {
             "maj": 4,
             "min": 3,
             "tra": 3,
             "cours": [
                 "Analyse de données",
-                "Analyse de données et visualisation",
+                "Analyse de  données et visualisation",
                 "Théorie des langages",
                 "Compilation",
-                "Génoie logiciel",
-                "Processus stochastiques", 
-                "Spé au choix",
+                "Génie logiciel",
+                "Processus stochastiques",
+                "Spécialité au choix",
                 "Anglais 5",
                 "Culture numérique 2",
-                "UEO"
+                "UE ouverture"
             ],
             "coeff": [
-                3, 3, 6, 3, 3, 3, 3, 2, 2, 2
+                3,
+                3,
+                6,
+                3,
+                3,
+                3,
+                3,
+                2,
+                2,
+                2
             ]
         },
         "SEMESTRE 6": {
@@ -108,20 +694,1531 @@
             "min": 3,
             "tra": 3,
             "cours": [
-                "Logique vérification et complexité",
-                "Admin des réseaux et dépl réseaux",
+                "Logiques, vérification et complexité",
+                "Administration des systèmes et déploiements réseaux",
                 "Base de données 2",
                 "Programmation mobile 1",
                 "Programmation web serveur",
-                "Spé au choix", 
+                "Spécialité au choix",
                 "Anglais 6",
-                "UEO",
+                "UE ouverture",
                 "Expérience en milieu professionnel"
             ],
             "coeff": [
-                6, 6, 3, 3, 3, 3, 2, 2, 2
+                6,
+                6,
+                3,
+                3,
+                3,
+                3,
+                2,
+                2,
+                2
+            ]
+        }
+    },
+    "Mathématiques L1": {
+        "SEMESTRE 1": {
+            "maj": 2,
+            "min": 2,
+            "tra": 3,
+            "cours": [
+                "Méthodologie scientifique",
+                "Analyse 1",
+                "Algèbre 1",
+                "Programmation Python",
+                "Anglais 1",
+                "Méthodologie et Technique Universitaire (MTU)",
+                "UE ouverture"
+            ],
+            "coeff": [
+                9,
+                9,
+                3,
+                3,
+                2,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 2": {
+            "maj": 3,
+            "min": 2,
+            "tra": 3,
+            "cours": [
+                "Algèbre 2a",
+                "Algèbre 2b",
+                "Analyse 2",
+                "Arithmétique et cryptographie",
+                "Statistiques descriptives",
+                "Anglais 2",
+                "UE ouverture",
+                "Projet professionnel"
+            ],
+            "coeff": [
+                4,
+                5,
+                9,
+                3,
+                3,
+                2,
+                2,
+                2
+            ]
+        }
+    },
+    "Mathématiques L1 LAS": {
+        "SEMESTRE 1": {
+            "maj": 2,
+            "min": 3,
+            "tra": 3,
+            "cours": [
+                "Méthodologie scientifique",
+                "Analyse 1",
+                "Algèbre 1",
+                "Programmation Python",
+                "Santé sciences fondamentales et SHS 1",
+                "Anglais 1",
+                "Santé découverte métiers/Projet Perso et Prof",
+                "UE ouverture"
+            ],
+            "coeff": [
+                9,
+                9,
+                3,
+                3,
+                5,
+                2,
+                3,
+                2
+            ]
+        },
+        "SEMESTRE 2": {
+            "maj": 3,
+            "min": 3,
+            "tra": 3,
+            "cours": [
+                "Algèbre 2a",
+                "Algèbre 2b",
+                "Analyse 2",
+                "Arithmétique et cryptographie",
+                "Statistiques descriptives",
+                "Santé sciences fondamentales et SHS 2",
+                "Santé anglais",
+                "UE ouverture",
+                "Santé  préparation épreuves 1/PPP OPTION SANTE 1"
+            ],
+            "coeff": [
+                4,
+                5,
+                9,
+                3,
+                3,
+                5,
+                2,
+                2,
+                5
+            ]
+        }
+    },
+    "Mathématiques L2": {
+        "SEMESTRE 3": {
+            "maj": 3,
+            "min": 3,
+            "tra": 3,
+            "cours": [
+                "Algèbre 3",
+                "Analyse 3",
+                "Réduction des endomorphismes",
+                "SageMath",
+                "Mathématiques discrètes",
+                "Structure de données 1",
+                "Anglais 3",
+                "Culture numérique 1",
+                "UE ouverture"
+            ],
+            "coeff": [
+                6,
+                6,
+                3,
+                3,
+                3,
+                3,
+                2,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 4": {
+            "maj": 3,
+            "min": 3,
+            "tra": 3,
+            "cours": [
+                "Algèbre 4 (bilinéaire)",
+                "Technique d'analyse et espaces normés",
+                "Algèbre 4bis",
+                "Analyse 4",
+                "Probabilités,  statistiques inférentielles et R",
+                "Programmation fonctionnelle",
+                "Anglais 4",
+                "UE ouverture",
+                "Découverte du monde du travail"
+            ],
+            "coeff": [
+                4,
+                5,
+                9,
+                3,
+                0,
+                3,
+                2,
+                2,
+                2
+            ]
+        }
+    },
+    "Mathématiques L2 Métiers de l'enseignement": {
+        "SEMESTRE 3": {
+            "maj": 3,
+            "min": 4,
+            "tra": 3,
+            "cours": [
+                "Algèbre 3",
+                "Analyse 3",
+                "Réduction des endomorphismes",
+                "SageMath",
+                "Mathématiques discrètes",
+                "Structure de données 1",
+                "Découverte  métiers de l'enseignement 1 (1er degré)",
+                "Anglais 3",
+                "Culture numérique 1",
+                "UE ouverture"
+            ],
+            "coeff": [
+                6,
+                6,
+                3,
+                3,
+                3,
+                3,
+                3,
+                2,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 4": {
+            "maj": 3,
+            "min": 4,
+            "tra": 3,
+            "cours": [
+                "Algèbre 4 (bilinéaire)",
+                "Technique d'analyse et espaces normés",
+                "Algèbre 4bis",
+                "Analyse 4",
+                "Probabilités,  statistiques inférentielles et R",
+                "Programmation fonctionnelle",
+                "Vers le projet professionnel 1  (1er degré)",
+                "Anglais 4",
+                "UE ouverture",
+                "Découverte du monde du travail"
+            ],
+            "coeff": [
+                4,
+                5,
+                9,
+                3,
+                0,
+                3,
+                3,
+                2,
+                2,
+                2
+            ]
+        }
+    },
+    "Mathématiques L2 LAS Voie A": {
+        "SEMESTRE 3": {
+            "maj": 3,
+            "min": 3,
+            "tra": 3,
+            "cours": [
+                "Algèbre 3",
+                "Analyse 3",
+                "Réduction des endomorphismes",
+                "SageMath",
+                "Mathématiques discrètes",
+                "Structure de données 1",
+                "Anglais 3",
+                "Culture numérique 1",
+                "UE ouverture"
+            ],
+            "coeff": [
+                6,
+                6,
+                3,
+                3,
+                3,
+                3,
+                2,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 4": {
+            "maj": 3,
+            "min": 2,
+            "tra": 3,
+            "cours": [
+                "Algèbre 4 (bilinéaire)",
+                "Technique d'analyse et espaces normés",
+                "Algèbre 4bis",
+                "Analyse 4",
+                "Probabilités,  statistiques inférentielles et R",
+                "Anglais 4",
+                "UE ouverture",
+                "Santé  préparation épreuves 2/PPP OPTION SANTE 2"
+            ],
+            "coeff": [
+                4,
+                5,
+                9,
+                3,
+                0,
+                2,
+                2,
+                5
+            ]
+        }
+    },
+    "Mathématiques L2 LAS Voie B": {
+        "SEMESTRE 3": {
+            "maj": 3,
+            "min": 3,
+            "tra": 4,
+            "cours": [
+                "Algèbre 3",
+                "Analyse 3",
+                "Réduction des endomorphismes",
+                "SageMath",
+                "Mathématiques discrètes",
+                "Santé sciences fondamentales et SHS 1",
+                "Santé découverte métiers/Projet Perso Prof.",
+                "Anglais 3",
+                "Culture numérique 1",
+                "UE ouverture"
+            ],
+            "coeff": [
+                6,
+                6,
+                3,
+                3,
+                3,
+                5,
+                3,
+                2,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 4": {
+            "maj": 3,
+            "min": 3,
+            "tra": 3,
+            "cours": [
+                "Algèbre 4 (bilinéaire)",
+                "Technique d'analyse et espaces normés",
+                "Algèbre 4bis",
+                "Analyse 4",
+                "Probabilités,  statistiques inférentielles et R",
+                "Santé sciences fondamentales et SHS 2",
+                "Santé anglais",
+                "UE ouverture",
+                "Santé découverte métiers/Projet Perso et Prof"
+            ],
+            "coeff": [
+                4,
+                5,
+                9,
+                3,
+                0,
+                5,
+                2,
+                2,
+                5
+            ]
+        }
+    },
+    "Mathématiques L3": {
+        "SEMESTRE 5": {
+            "maj": 3,
+            "min": 2,
+            "tra": 3,
+            "cours": [
+                "Calcul différentiel",
+                "Topologie",
+                "Intégration",
+                "Groupes a",
+                "Groupes b",
+                "Anglais 5",
+                "Culture numérique 2",
+                "UE ouverture"
+            ],
+            "coeff": [
+                6,
+                6,
+                6,
+                3,
+                3,
+                2,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 6": {
+            "maj": 3,
+            "min": 2,
+            "tra": 3,
+            "cours": [
+                "Semestre 6",
+                "Analyse et algèbre appliquées",
+                "Anneaux",
+                "Probabilités",
+                "Analyse complexe",
+                "Analyse numérique",
+                "Anglais 6",
+                "Expérience en milieu professionnel",
+                "UE ouverture"
+            ],
+            "coeff": [
+                0,
+                6,
+                6,
+                6,
+                3,
+                3,
+                2,
+                2,
+                2
+            ]
+        }
+    },
+    "Mathématiques L3 Métiers de l'enseignement": {
+        "SEMESTRE 5": {
+            "maj": 3,
+            "min": 3,
+            "tra": 3,
+            "cours": [
+                "Calcul différentiel",
+                "Topologie",
+                "Intégration",
+                "Groupes a",
+                "Groupes b",
+                "Découverte du métier 2",
+                "Anglais 5",
+                "Culture numérique 2",
+                "UE ouverture"
+            ],
+            "coeff": [
+                6,
+                6,
+                6,
+                3,
+                3,
+                3,
+                2,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 6": {
+            "maj": 3,
+            "min": 3,
+            "tra": 3,
+            "cours": [
+                "Analyse et algèbre appliquées",
+                "Anneaux",
+                "Probabilités",
+                "Analyse complexe",
+                "Analyse numérique",
+                "Savoir et didactique 1er degré",
+                "Anglais 6",
+                "Expérience en milieu professionnel",
+                "UE ouverture"
+            ],
+            "coeff": [
+                6,
+                6,
+                6,
+                3,
+                3,
+                3,
+                2,
+                2,
+                2
+            ]
+        }
+    },
+    "MIASHS L1": {
+        "SEMESTRE 1": {
+            "maj": 4,
+            "min": 2,
+            "tra": 2,
+            "cours": [
+                "Méthodologie scientifique",
+                "Principes généraux de l'économie",
+                "Analyse 1",
+                "Algèbre 1",
+                "Outils mathématiques pour l'économie et la physique",
+                "Programmation Python",
+                "Anglais 1 (UFR DE)",
+                "UE ouverture"
+            ],
+            "coeff": [
+                7,
+                4,
+                6,
+                4,
+                3,
+                2,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 2": {
+            "maj": 4,
+            "min": 2,
+            "tra": 3,
+            "cours": [
+                "Algèbre 2a",
+                "Algèbre 2b",
+                "Analyse 2",
+                "Introduction à la microéconomie",
+                "Introduction à la macroéconomie",
+                "Statistiques descriptives",
+                "Projet Python",
+                "Anglais 2 (UFR DE)",
+                "UE ouverture"
+            ],
+            "coeff": [
+                4,
+                5,
+                9,
+                4,
+                4,
+                3,
+                2,
+                2,
+                2
+            ]
+        }
+    },
+    "MIASHS L2": {
+        "SEMESTRE 3": {
+            "maj": 4,
+            "min": 3,
+            "tra": 3,
+            "cours": [
+                "Microéconomie 1",
+                "Analyse 3",
+                "Réduction des endomorphismes",
+                "Macroéconomie fermée",
+                "Mathématiques discrètes",
+                "Structure de données 1",
+                "Structure de données 2",
+                "Anglais 3 (UFR DE)",
+                "Base de données 1",
+                "UE ouverture"
+            ],
+            "coeff": [
+                4,
+                6,
+                3,
+                3,
+                3,
+                3,
+                2,
+                2,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 4": {
+            "maj": 3,
+            "min": 2,
+            "tra": 3,
+            "cours": [
+                "Algèbre 4 (algèbre bilinéaire)",
+                "Technique d'analyse et espaces normés",
+                "Macroéconomie ouverte",
+                "Microéconomie 2",
+                "Probabilités,  statistiques inférentielles et R",
+                "Anglais 4 (UFR DE)",
+                "UE ouverture",
+                "Insertion professionnelle et techniques de communication"
+            ],
+            "coeff": [
+                6,
+                6,
+                4,
+                5,
+                3,
+                2,
+                2,
+                2
+            ]
+        }
+    },
+    "MIASHS L3": {
+        "SEMESTRE 5": {
+            "maj": 3,
+            "min": 2,
+            "tra": 3,
+            "cours": [
+                "Calcul différentiel",
+                "Topologie",
+                "Macroéconomie dynamique",
+                "Commerce international",
+                "Économie monétaire internationale",
+                "Anglais 5 (UFR DE)",
+                "Analyse de données",
+                "UE ouverture"
+            ],
+            "coeff": [
+                6,
+                6,
+                5,
+                4,
+                3,
+                2,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 6": {
+            "maj": 4,
+            "min": 2,
+            "tra": 3,
+            "cours": [
+                "Microéconomie approfondie",
+                "Croissance",
+                "Économétrie",
+                "Économie publique",
+                "Théorie des jeux",
+                "Bases de données 2",
+                "Anglais 6 (UFR DE)",
+                "Expérience en milieu professionnel",
+                "UE ouverture"
+            ],
+            "coeff": [
+                4,
+                4,
+                5,
+                4,
+                4,
+                3,
+                2,
+                2,
+                2
+            ]
+        }
+    },
+    "Physique L1": {
+        "SEMESTRE 1": {
+            "maj": 2,
+            "min": 2,
+            "tra": 3,
+            "cours": [
+                "Méthodologie scientifique",
+                "Optique électronique 1",
+                "Outils mathématiques pour l'économie et la physique",
+                "Principes de base de la physique",
+                "Anglais 1",
+                "Méthodologie et Technique Universitaire (MTU)",
+                "UE ouverture"
+            ],
+            "coeff": [
+                9,
+                9,
+                3,
+                3,
+                2,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 2": {
+            "maj": 2,
+            "min": 2,
+            "tra": 3,
+            "cours": [
+                "Mécanique énergie 1 : mécanique du point matériel",
+                "Thermodynamique 1 : transferts thermiques",
+                "Renforcement: mathématiques pour la physique",
+                "UE mineure au choix",
+                "Anglais 2",
+                "UE ouverture",
+                "Projet professionnel"
+            ],
+            "coeff": [
+                9,
+                9,
+                3,
+                3,
+                2,
+                2,
+                2
+            ]
+        }
+    },
+    "Physique L2": {
+        "SEMESTRE 3": {
+            "maj": 4,
+            "min": 3,
+            "tra": 3,
+            "cours": [
+                "Électromagnétisme 1 : électrostatique et magnétostatique",
+                "Circuits et systèmes électroniques : fondamentaux",
+                "Mathématiques pour la physique 1 : Python",
+                "Mathématiques pour la physique 2 : analyse",
+                "Mécanique énergie 2 : cinématique et cinétique du solide",
+                "Mécanique énergie 3 : dynamique du solide",
+                "Mécanique énergie 4 : bases de mécanique des fluides",
+                "Anglais 3",
+                "Culture numérique 1",
+                "UE ouverture"
+            ],
+            "coeff": [
+                3,
+                3,
+                6,
+                3,
+                3,
+                3,
+                3,
+                2,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 4": {
+            "maj": 4,
+            "min": 3,
+            "tra": 3,
+            "cours": [
+                "Électromagnétisme 2 : ondes électromagnétiques",
+                "Optique moderne : lasers et fibres optiques",
+                "Spécialité UE1",
+                "Spécialité UE2",
+                "Thermodynamique  2 : thermodynamique physique",
+                "Thermodynamique 3 : théorie cinétique des gaz",
+                "Thermodynamique 4 : thermique",
+                "Anglais 4",
+                "UE ouverture",
+                "Découverte du monde du travail"
+            ],
+            "coeff": [
+                3,
+                3,
+                6,
+                3,
+                3,
+                3,
+                3,
+                2,
+                2,
+                2
+            ]
+        }
+    },
+    "Physique L3": {
+        "SEMESTRE 5": {
+            "maj": 4,
+            "min": 3,
+            "tra": 3,
+            "cours": [
+                "Électromagnétisme 3 : équation de Maxwell dans la matière",
+                "Électronique analogique 1 :  fonctions linéaires",
+                "Mathématiques pour la physique 3 : traitement du signal",
+                "Mathématiques pour la physique 4 : tenseurs",
+                "Mécanique énergie 5: mécanique des milieux continus",
+                "Mécanique énergie 6 : résistance des matériaux",
+                "Mécanique énergie 7 : mécanique des fluides newtoniens",
+                "Anglais 5",
+                "Culture numérique 2",
+                "UE ouverture"
+            ],
+            "coeff": [
+                3,
+                3,
+                6,
+                3,
+                3,
+                3,
+                3,
+                2,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 6": {
+            "maj": 1,
+            "min": 3,
+            "tra": 3,
+            "cours": [
+                "Spécialité au choix",
+                "Optique électronique 5 : diffraction",
+                "Optique électronique 6 : interférences",
+                "Optique électronique 7 : chaine d'acquisition de données",
+                "Anglais 6",
+                "UE ouverture",
+                "Expérience en milieu professionnel"
+            ],
+            "coeff": [
+                15,
+                3,
+                3,
+                3,
+                2,
+                2,
+                2
+            ]
+        }
+    },
+    "SPI L1": {
+        "SEMESTRE 1": {
+            "maj": 2,
+            "min": 2,
+            "tra": 3,
+            "cours": [
+                "Sciences 1",
+                "Projet 1 †",
+                "Techniques de l'ingénieur 1†",
+                "Application des sciences 1",
+                "Anglais 1",
+                "Méthodologie et Technique Universitaire (MTU)†",
+                "UE ouverture †"
+            ],
+            "coeff": [
+                9,
+                9,
+                3,
+                3,
+                2,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 2": {
+            "maj": 2,
+            "min": 2,
+            "tra": 3,
+            "cours": [
+                "Sciences 2",
+                "Projet 2†",
+                "Techniques de l'ingénieur 2†",
+                "Application des sciences 2",
+                "Anglais 2",
+                "UE ouverture",
+                "Professionnalisation prise  de notes†"
+            ],
+            "coeff": [
+                9,
+                9,
+                3,
+                3,
+                2,
+                2,
+                2
+            ]
+        }
+    },
+    "SPI L2": {
+        "SEMESTRE 3": {
+            "maj": 2,
+            "min": 2,
+            "tra": 3,
+            "cours": [
+                "Sciences 3",
+                "Projet 3",
+                "Techniques de l'ingénieur 3",
+                "Application des sciences 3",
+                "Anglais 3",
+                "Culture numérique 1",
+                "UE ouverture"
+            ],
+            "coeff": [
+                9,
+                9,
+                3,
+                3,
+                2,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 4": {
+            "maj": 2,
+            "min": 2,
+            "tra": 3,
+            "cours": [
+                "Sciences 4",
+                "Projet 4",
+                "Techniques de l'ingénieur 4",
+                "Application des sciences 4",
+                "Anglais 4",
+                "UE ouverture",
+                "Découverte du monde du travail"
+            ],
+            "coeff": [
+                9,
+                9,
+                3,
+                3,
+                2,
+                2,
+                2
+            ]
+        }
+    },
+    "SPI L3": {
+        "SEMESTRE 5": {
+            "maj": 2,
+            "min": 2,
+            "tra": 3,
+            "cours": [
+                "Sciences 5",
+                "Projet 5",
+                "Spécialité UE1",
+                "Spécialité UE2",
+                "Anglais 5",
+                "Culture numérique 2",
+                "UE ouverture"
+            ],
+            "coeff": [
+                9,
+                9,
+                3,
+                3,
+                2,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 6": {
+            "maj": 2,
+            "min": 2,
+            "tra": 3,
+            "cours": [
+                "Sciences 6",
+                "Projet 6",
+                "Spécialité au choix",
+                "Spécialité ISN",
+                "Anglais 6",
+                "UE ouverture",
+                "Expérience en milieu professionnel"
+            ],
+            "coeff": [
+                9,
+                9,
+                3,
+                3,
+                2,
+                2,
+                2
+            ]
+        }
+    },
+    "Sciences de la Terre L1": {
+        "SEMESTRE 1": {
+            "maj": 4,
+            "min": 2,
+            "tra": 3,
+            "cours": [
+                "Méthodologie scientifique",
+                "Méthodologie scientifique Chimie",
+                "Géochronologie",
+                "Cartographie",
+                "Architecture de la matière 1",
+                "Principes de base de la physique",
+                "Anglais 1",
+                "Méthodologie et Technique Universitaire (MTU)",
+                "UE ouverture"
+            ],
+            "coeff": [
+                6,
+                3,
+                5,
+                4,
+                3,
+                3,
+                2,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 2": {
+            "maj": 2,
+            "min": 2,
+            "tra": 3,
+            "cours": [
+                "Géologie 2 : géodynamique",
+                "Thermodynamique 1 : transferts thermiques",
+                "Géochimie",
+                "Transformation de la matière 1",
+                "Anglais 2",
+                "UE ouverture",
+                "Projet professionnel"
+            ],
+            "coeff": [
+                9,
+                9,
+                3,
+                3,
+                2,
+                2,
+                2
+            ]
+        }
+    },
+    "Sciences de la Terre L2": {
+        "SEMESTRE 3": {
+            "maj": 4,
+            "min": 3,
+            "tra": 3,
+            "cours": [
+                "Géologie 3 : géomorphologie et sédimentologie",
+                "Caractérisation des sols",
+                "Mécanique des sols et des roches",
+                "Cartographie géologique",
+                "Chimie de l'environnement",
+                "Outils mathématiques",
+                "Spécialité au choix",
+                "Anglais 3",
+                "Culture numérique 1",
+                "UE ouverture"
+            ],
+            "coeff": [
+                6,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                2,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 4": {
+            "maj": 3,
+            "min": 3,
+            "tra": 3,
+            "cours": [
+                "Géologie 4 : pétrologie et structurale",
+                "Géophysique 1 : ondes géo-électromagnétiques et sismiques",
+                "Géologie de terrain 1 : initiation",
+                "Mathématiques appliquées aux géosciences",
+                "Ressources naturelles",
+                "Spécialité au choix",
+                "Anglais 4",
+                "UE ouverture",
+                "Découverte du monde du travail"
+            ],
+            "coeff": [
+                6,
+                6,
+                3,
+                3,
+                3,
+                3,
+                2,
+                2,
+                2
+            ]
+        }
+    },
+    "Sciences de la Terre L3": {
+        "SEMESTRE 5": {
+            "maj": 3,
+            "min": 3,
+            "tra": 3,
+            "cours": [
+                "Hydrogéologie et hydrochimie",
+                "Géomatique",
+                "Programmation en géosciences",
+                "Géologie de terrain 2 : stage",
+                "Biostatistiques",
+                "Spécialité au choix",
+                "Anglais 5",
+                "Culture numérique 2",
+                "UE ouverture"
+            ],
+            "coeff": [
+                6,
+                6,
+                3,
+                3,
+                3,
+                3,
+                2,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 6": {
+            "maj": 3,
+            "min": 3,
+            "tra": 3,
+            "cours": [
+                "Géologie de terrain 3 : projets cartographie",
+                "Géoingénierie",
+                "Géophysique 2 : sismologie et gravimétrie",
+                "Géologie régionale",
+                "Volcanologie",
+                "Spécialité au choix",
+                "Anglais 6",
+                "UE ouverture",
+                "Expérience en milieu professionnel"
+            ],
+            "coeff": [
+                6,
+                6,
+                3,
+                3,
+                3,
+                3,
+                2,
+                2,
+                2
+            ]
+        }
+    },
+    "Sciences de la Vie L1": {
+        "SEMESTRE 1": {
+            "maj": 2,
+            "min": 2,
+            "tra": 3,
+            "cours": [
+                "Méthodologie scientifique †",
+                "Méthodologie scientifique Chimie †",
+                "Biologie animale et  végétale †",
+                "Architecture de la matière 1",
+                "Géochronologie: Histoire de la Terre",
+                "Anglais 1",
+                "Méthodologie et Technique Universitaire (MTU)†",
+                "UE ouverture †"
+            ],
+            "coeff": [
+                6,
+                3,
+                9,
+                3,
+                3,
+                2,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 2": {
+            "maj": 3,
+            "min": 2,
+            "tra": 3,
+            "cours": [
+                "Génétique formelle et moléculaire †",
+                "Biologie cellulaire †",
+                "Introduction à l'écologie: organisation et fonctionnement de la biosphère †",
+                "Transformation de la matière 1",
+                "Outils pour l'expérimentation",
+                "Anglais 2",
+                "UE ouverture",
+                "Projet d'étude et professionnel †"
+            ],
+            "coeff": [
+                9,
+                5,
+                4,
+                3,
+                3,
+                2,
+                2,
+                2
+            ]
+        }
+    },
+    "Sciences de la Vie L1 LAS": {
+        "SEMESTRE 1": {
+            "maj": 2,
+            "min": 1,
+            "tra": 4,
+            "cours": [
+                "Méthodologie scientifique",
+                "Méthodologie scientifique Chimie",
+                "Biologie animale et  végétale",
+                "Méthodologie et Technique Universitaire (MTU)†",
+                "Santé sciences fondamentales et SHS 1",
+                "Anglais 1",
+                "Santé découverte métiers/Projet Perso et Prof",
+                "UE ouverture"
+            ],
+            "coeff": [
+                6,
+                3,
+                9,
+                2,
+                5,
+                2,
+                3,
+                2
+            ]
+        },
+        "SEMESTRE 2": {
+            "maj": 2,
+            "min": 2,
+            "tra": 3,
+            "cours": [
+                "Génétique formelle et moléculaire",
+                "Introduction à l'écologie: organisation et fonctionnement de la biosphère",
+                "Transformation de la matière 1",
+                "Santé sciences fondamentales et SHS 2",
+                "Santé anglais",
+                "UE ouverture",
+                "Santé  préparation épreuves 1/PPP OPTION SANTE 1"
+            ],
+            "coeff": [
+                9,
+                4,
+                3,
+                5,
+                2,
+                2,
+                5
+            ]
+        }
+    },
+    "Sciences de la Vie L2": {
+        "SEMESTRE 3": {
+            "maj": 4,
+            "min": 2,
+            "tra": 3,
+            "cours": [
+                "Reproduction et développement des animaux",
+                "Écologie et environnement",
+                "Microbiologie : bactéries, virus et champignons",
+                "Développement et nutrition des végétaux",
+                "Outils mathématiques",
+                "Spécialité au choix",
+                "Anglais 3",
+                "Culture numérique 1",
+                "UE ouverture"
+            ],
+            "coeff": [
+                6,
+                6,
+                3,
+                3,
+                3,
+                3,
+                2,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 4": {
+            "maj": 4,
+            "min": 2,
+            "tra": 3,
+            "cours": [
+                "Génétique  des eucaryotes, des procaryotes et de leurs virus",
+                "Biochimie",
+                "Communication nerveuse et hormonale",
+                "Évolution et reproduction des végétaux",
+                "Immunologie  générale et cellulaire",
+                "Spécialité au choix",
+                "Anglais 4",
+                "UE ouverture",
+                "Découverte du monde du travail"
+            ],
+            "coeff": [
+                6,
+                6,
+                3,
+                3,
+                3,
+                3,
+                2,
+                2,
+                2
+            ]
+        }
+    },
+    "Sciences de la Vie L2 LAS Voie A": {
+        "SEMESTRE 3": {
+            "maj": 4,
+            "min": 2,
+            "tra": 3,
+            "cours": [
+                "Reproduction et développement des animaux",
+                "Écologie et environnement",
+                "Microbiologie : bactéries, virus et champignons",
+                "Développement et nutrition des végétaux",
+                "Outils mathématiques",
+                "Chimie organique pour les SV",
+                "Anglais 3",
+                "Culture numérique 1",
+                "UE ouverture"
+            ],
+            "coeff": [
+                6,
+                6,
+                3,
+                3,
+                3,
+                3,
+                2,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 4": {
+            "maj": 4,
+            "min": 1,
+            "tra": 3,
+            "cours": [
+                "Génétique  des eucaryotes, des procaryotes et de leurs virus",
+                "Biochimie",
+                "Communication nerveuse et hormonale",
+                "Évolution et reproduction des végétaux",
+                "Immunologie  générale et cellulaire",
+                "Anglais 4",
+                "UE ouverture",
+                "Santé  préparation épreuves 2/PPP OPTION SANTE 2"
+            ],
+            "coeff": [
+                6,
+                6,
+                3,
+                3,
+                3,
+                2,
+                2,
+                5
+            ]
+        }
+    },
+    "Sciences de la Vie L2 LAS Voie B": {
+        "SEMESTRE 3": {
+            "maj": 3,
+            "min": 2,
+            "tra": 4,
+            "cours": [
+                "Reproduction et développement des animaux",
+                "Écologie et environnement",
+                "Microbiologie : bactéries, virus et champignons",
+                "Chimie organique pour les SV",
+                "Santé sciences fondamentales et SHS 1",
+                "Santé découverte métiers/Projet Perso Prof.",
+                "Anglais 3",
+                "Culture numérique 1",
+                "UE ouverture"
+            ],
+            "coeff": [
+                6,
+                6,
+                3,
+                3,
+                5,
+                3,
+                2,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 4": {
+            "maj": 3,
+            "min": 2,
+            "tra": 3,
+            "cours": [
+                "Génétique  des eucaryotes, des procaryotes et de leurs virus",
+                "Biochimie",
+                "Communication nerveuse et hormonale",
+                "Immunologie  générale et cellulaire",
+                "Santé sciences fondamentales et SHS 2",
+                "Santé anglais",
+                "UE ouverture",
+                "Santé découverte métiers/Projet Perso et Prof"
+            ],
+            "coeff": [
+                6,
+                6,
+                3,
+                3,
+                5,
+                2,
+                2,
+                5
+            ]
+        }
+    },
+    "Sciences de la Vie L3": {
+        "SEMESTRE 5": {
+            "maj": 4,
+            "min": 2,
+            "tra": 3,
+            "cours": [
+                "Évolution, spéciation, phylogénie",
+                "Classification, organisation et évolution des Métazoaires",
+                "Les rétrocontrôles en physiologie humaine",
+                "Biostatistiques",
+                "Spécialité UE1",
+                "Spécialité UE2",
+                "Anglais 5",
+                "Culture numérique 2",
+                "UE ouverture"
+            ],
+            "coeff": [
+                6,
+                6,
+                3,
+                3,
+                3,
+                3,
+                2,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 6": {
+            "maj": 4,
+            "min": 2,
+            "tra": 3,
+            "cours": [
+                "Évolution, spéciation, phylogénie",
+                "Classification, organisation et évolution des Métazoaires",
+                "Les rétrocontrôles en physiologie humaine",
+                "Biostatistiques",
+                "Spécialité UE1",
+                "Spécialité UE2",
+                "Anglais 5",
+                "Culture numérique 2",
+                "UE ouverture"
+            ],
+            "coeff": [
+                6,
+                6,
+                3,
+                3,
+                3,
+                3,
+                2,
+                2,
+                2
+            ]
+        }
+    },
+    "Sciences de la Vie L3 LAS": {
+        "SEMESTRE 5": {
+            "maj": 4,
+            "min": 2,
+            "tra": 3,
+            "cours": [
+                "Évolution, spéciation, phylogénie",
+                "Classification, organisation et évolution des Métazoaires",
+                "Les rétrocontrôles en physiologie humaine",
+                "Biostatistiques",
+                "Travaux d'études et de recherche (TER)",
+                "Microbiologie : écologie microbienne",
+                "Anglais 5",
+                "Culture numérique 2",
+                "UE ouverture"
+            ],
+            "coeff": [
+                6,
+                6,
+                3,
+                3,
+                3,
+                3,
+                2,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 6": {
+            "maj": 4,
+            "min": 2,
+            "tra": 3,
+            "cours": [
+                "Écologie des populations et des communautés",
+                "Gènes et éthique",
+                "Les végétaux dans leur milieu et leurs utilisations",
+                "Neurobiologie",
+                "Enzymologie",
+                "Communication cellulaire",
+                "Anglais 6",
+                "UE ouverture",
+                "Santé  préparation épreuves 2/PPP OPTION SANTE 2"
+            ],
+            "coeff": [
+                6,
+                6,
+                3,
+                3,
+                3,
+                3,
+                2,
+                2,
+                5
+            ]
+        }
+    },
+    "Prof Agronomie L1": {
+        "SEMESTRE 1": {
+            "maj": 9,
+            "min": 0,
+            "tra": 0,
+            "cours": [
+                "Mise à niveau au choix",
+                "Stage immersion",
+                "Communication individuelle et collective",
+                "Techniques, conseils, enquêtes et interview",
+                "Diagnostic entreprise agricole",
+                "Cadre législatif",
+                "Diagnostic territoire",
+                "Anglais remise à niveau",
+                "Anglais professionnel"
+            ],
+            "coeff": [
+                3,
+                2,
+                2,
+                2,
+                5,
+                5,
+                8,
+                2,
+                1
+            ]
+        }
+    },
+    "Prof Agronomie L3": {
+        "SEMESTRE 2": {
+            "maj": 4,
+            "min": 0,
+            "tra": 0,
+            "cours": [
+                "Enjeux environnementaux",
+                "Pratiques agricoles et démarche qualité",
+                "Projet tuteuré",
+                "Stage : mémoire de fin d'études"
+            ],
+            "coeff": [
+                5,
+                7,
+                5,
+                13
             ]
         }
     }
-
 }
