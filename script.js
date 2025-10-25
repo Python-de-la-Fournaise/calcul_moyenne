@@ -1,31 +1,83 @@
 $(() => {
-    let fil = ""; 
-    let prom = "";
-    const tab = $("#tab table");
+    // --- GESTION DES COOKIES --- //
+    const setCookie = (name, value, days = 365) => {
+        const d = new Date();
+        d.setTime(d.getTime() + (days*24*60*60*1000));
+        const expires = "expires=" + d.toUTCString();
+        document.cookie = `${name}=${encodeURIComponent(value)};${expires};path=/`;
+    };
 
+    const getCookie = (name) => {
+        const cookies = document.cookie.split(';');
+        for (let c of cookies) {
+            c = c.trim();
+            if (c.startsWith(name + "=")) {
+                return decodeURIComponent(c.substring(name.length + 1));
+            }
+        }
+        return "";
+    };
+
+    // --- VARIABLES --- //
+    let fil = "";
+    let prom = "";
+    let spe = "";
+    let key = "";
+    const tab = $("#tab table");
     let data = [];
 
-    // Prend les données de data.json
-    $.getJSON("data.json", function(datas){
-        data = datas;
-        console.log(data);
-    });
+    const fil_avec_spe = {
+        "Sciences de la Vie L1" : ["LAS"],
+        "Sciences de la Vie L2" : ["LAS Voie A", "LAS Voie B"],
+        "Sciences de la Vie L3" : ["LAS"],
+        "Mathématiques L1" : ["LAS"],
+        "Mathématiques L2" : ["LAS Voie A","LAS Voie B", "Métiers de l'enseignement"],
+        "Mathématiques L3" : ["LAS", "Métiers de l'enseignement"],
+        "Chimie L1" : ["LAS"],
+        "Chimie L2" : ["LAS Voie A","LAS Voie B", "Métiers de l'enseignement"],
+        "Chimie L3" : ["LAS", "LAS Métiers de l'enseignement", "Métiers de l'enseignement"]
+    }
+
+    const new_file_avec_spe = [];
+
+    for (const fil in fil_avec_spe) {
+        const specialites = fil_avec_spe[fil];
+        for (const spe of specialites) {
+            new_file_avec_spe.push(`${fil} ${spe}`);
+        }
+    }
+
+    console.log(new_file_avec_spe);
 
     // Mets à jour le titre pour mettre la filière
     const majTitre = () => {
-        $("#titre_fil_prom").text(fil && prom ? `${fil} ${prom}` : "Sélectionne ta filière et ta promotion");
+        if(ajouterSpécialité() && fil && prom){
+            $("#titre_fil_prom").text(`${fil} ${prom} ${spe}`);
+        }else{
+            $("#titre_fil_prom").text("Sélectionne ta filière et ta promotion")
+        }
+        
     };
 
     // Construis les tableaux avec les données dans data.json
     const setTabs = () => {
-        // Si les deux choix sont faits
-        const key = fil + " " + prom;
         let semestres;
 
-        if (data[key]) {    
+        tab.eq(0).empty();
+        tab.eq(1).empty();
+        $("#calcul_moyenne").hide();
+
+        setKey();
+        
+        console.log(key);
+
+        if (data[key] && ajouterSpécialité()) {
+            $("#calcul_moyenne").show();
+               
             semestres = Object.keys(data[key]);
 
             for (let i = 0; i < tab.length; i++) {
+                console.log("Yes");
                 // On rajoute un id avec le numéro pour le calcul de la moyenne
                 tab.eq(i).attr("id", "tab_moyenne" + i);
 
@@ -60,10 +112,10 @@ $(() => {
                 for (let j = 0; j < maj; j++, ligneIndex++) {
                     tbody.append(`
                         <tr>
-                            ${j === 0 ? `<td class="lexend_bold text_center" rowspan="${maj}">M</td>` : ""}
-                            <td class="lexend_bold text_left">${data[key][semKey]["cours"][j]}</td>
-                            <td class="tab_align_center lexend_normal text_center">${data[key][semKey]["coeff"][j]}</td>
-                            <td class="text_center" id="note_${i}_${ligneIndex}"><input class="lexend_normal text_center note_input" type="number" min=0 max=20 value=0></td>
+                            ${j === 0 ? `<td class="lexend_bold text_center maj0" rowspan="${maj}">M</td>` : ""}
+                            <td class="lexend_bold text_left maj1">${data[key][semKey]["cours"][j]}</td>
+                            <td class="tab_align_center lexend_normal text_center maj2">${data[key][semKey]["coeff"][j]}</td>
+                            <td class="text_center maj3" id="note_${i}_${ligneIndex}"><input class="lexend_normal text_center note_input" type="number" min=0 max=20 value=0></td>
                         </tr>
                     `);
                 }
@@ -72,10 +124,10 @@ $(() => {
                 for (let j = 0; j < min; j++, ligneIndex++) {
                     tbody.append(`
                         <tr>
-                            ${j === 0 ? `<td class="lexend_bold text_center" rowspan="${min}">m</td>` : ""}
-                            <td class="lexend_bold">${data[key][semKey]["cours"][maj + j]}</td>
-                            <td class="tab_align_center lexend_normal text_center">${data[key][semKey]["coeff"][maj + j]}</td>
-                            <td class="text_center" id="note_${i}_${ligneIndex}"><input class="lexend_normal text_center note_input" type="number" min=0 max=20 value=0></td>
+                            ${j === 0 ? `<td class="lexend_bold text_center min0" rowspan="${min}">m</td>` : ""}
+                            <td class="lexend_bold min1">${data[key][semKey]["cours"][maj + j]}</td>
+                            <td class="tab_align_center lexend_normal text_center min2">${data[key][semKey]["coeff"][maj + j]}</td>
+                            <td class="text_center min3" id="note_${i}_${ligneIndex}"><input class="lexend_normal text_center note_input" type="number" min=0 max=20 value=0></td>
                         </tr>
                     `);
                 }
@@ -84,10 +136,10 @@ $(() => {
                 for (let j = 0; j < tra; j++, ligneIndex++) {
                     tbody.append(`
                         <tr>
-                            ${j === 0 ? `<td class="lexend_bold text_center" rowspan="${tra}">T</td>` : ""}
-                            <td class="lexend_bold text_left">${data[key][semKey]["cours"][maj + min + j]}</td>
-                            <td class="tab_align_center lexend_normal text_center">${data[key][semKey]["coeff"][maj + min + j]}</td>
-                            <td class="text_center" id="note_${i}_${ligneIndex}"><input class="lexend_normal text_center note_input" type="number" min=0 max=20 value=0></td>
+                            ${j === 0 ? `<td class="lexend_bold text_center tra0" rowspan="${tra}">T</td>` : ""}
+                            <td class="lexend_bold text_left tra1">${data[key][semKey]["cours"][maj + min + j]}</td>
+                            <td class="tab_align_center lexend_normal text_center tra2">${data[key][semKey]["coeff"][maj + min + j]}</td>
+                            <td class="text_center tra3" id="note_${i}_${ligneIndex}"><input class="lexend_normal text_center note_input" type="number" min=0 max=20 value=0></td>
                         </tr>
                     `);
                 }
@@ -107,30 +159,51 @@ $(() => {
             }
 
             // Affiche le bouton/calcul
-            $("#calcul_moyenne").css("visibility", "visible");
-            $("#en_cours").css("visibility", "hidden");
+            $("#calcul_moyenne").show();            
 
             return;
 
-        } else {
-            // On vide les tableaux
-            tab.eq(0).empty();
-            tab.eq(1).empty();
-            // Cache le bouton/calcul
-            $("#calcul_moyenne").css("visibility", "hidden");
-            if(fil && prom) $("#en_cours").css("visibility", "visible");
-
-            return;
         }
-
     };
+
+
+    // Méthode qui ajoute les spécialités si besoin
+    const ajouterSpécialité = () => {
+        if (key in fil_avec_spe) {
+            console.log("NOK");
+            $("#specialite_select").empty();
+            $("#specialite_select").append(
+                `<option selected disabled value="">Choisir la spécialité</option>`
+            );
+
+            for (let i = 0; i < fil_avec_spe[key].length; i++) {
+                const spe = fil_avec_spe[key][i];
+                $("#specialite_select").append(`<option value="${spe}">${spe}</option>`);
+            }
+
+            $("#specialite").show();
+            return false;
+        } else if(new_file_avec_spe.includes(key)){
+            console.log("in");
+            return true;
+        } else {
+            console.log("OK");
+            
+            $("#specialite").hide().val("");
+            return true;
+        }
+    };
+
+    const resetSpe = () =>{
+        spe = "";
+    }
+
 
     // Calcule la moyenne de chaque tab
     const majMoySem = (i) => {
         let sommeNotes = 0;
         let sommeECTS = 0;
 
-        const key = fil + " " + prom;
         const semKey = Object.keys(data[key])[i];
 
         // Parcours des lignes du tableau i
@@ -152,22 +225,45 @@ $(() => {
         let moy1 = parseFloat($("#calcul_moyenne_sem_0").text()) || 0;
         let moy2 = parseFloat($("#calcul_moyenne_sem_1").text()) || 0;
 
-        $("#moy_gen").text("Moyenne MOYENNE GENÉRALE : "+((moy1 + moy2) / 2).toFixed(3));
-    }
+        $("#moy_gen").text("MOYENNE GENÉRALE : "+((moy1 + moy2) / 2).toFixed(3));
+    };
+
+    // Chimie L2 + Chimie L2 LAS 
+    // + Chimie L2 Métiers enseignements 
+    // + Chimie L2 LAS Métiers enseignements 
+    // ==> Pour éviter de tous les mettre dans la liste, on affine
+    // le premier questionnaire
+    InfosRemplies = () => {
+    };
 
 
+    //Pour avoir l'indice dans le dictionnaire
+    const setKey = () => {
+        key = (fil + " " + prom + " " + spe).trim()
+    };
 
     // Évènements sur les selects
     $("#filiere_select").on("change", function () {
         fil = $(this).val();
-        majTitre();
+        setCookie("fil", fil);
+        resetSpe();
         setTabs();
+        majTitre();
     });
 
     $("#promotion_select").on("change", function () {
         prom = $(this).val();
-        majTitre();
+        setCookie("prom", prom);
+        resetSpe();
         setTabs();
+        majTitre();
+    });
+
+    $("#specialite_select").on("change", function () {
+        spe = $(this).val();
+        setCookie("spe", spe);
+        setTabs();
+        majTitre();
     });
 
     // Mise à jour dynamique moy_sem
@@ -180,5 +276,19 @@ $(() => {
         majMoyGen()
     });
 
-});
+    $.getJSON("data.json", function(datas) {
+        data = datas;
 
+        fil = getCookie("fil");
+        prom = getCookie("prom");
+        spe = getCookie("spe");
+
+        if (fil) $("#filiere_select").val(fil);
+        if (prom) $("#promotion_select").val(prom);
+        if (spe) $("#specialite_select").val(spe);
+
+        majTitre();
+        setTabs();
+    });
+
+});
