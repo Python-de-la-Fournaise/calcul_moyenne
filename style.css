@@ -9,11 +9,12 @@ body{
     font-size: 18px;
 }
 
-h1, h2, h3{
-    color:#1e4f74;
+h1, h3{
+   color: #B61A16
 }
 
 h2{
+    color:#1e4f74;
     font-size: 18px;
     margin:0;
 }
@@ -37,10 +38,22 @@ h1{
   margin-top: 5px;
   padding: 5px;
   border-radius: 5px;
+  box-shadow: 4px 4px 10px rgba(0,0,0,0.3);
 }
 
-#calcul_moyenne, #en_cours{
-    visibility: hidden;
+#calcul_moyenne{
+    display: none;
+    font-size: 30px;
+    padding :0px;
+}
+
+#specialite{
+    display: none; 
+}
+
+.placeholder{
+    font-style: italic;
+    color: grey;
 }
 
 /*----------------*/
@@ -48,33 +61,57 @@ h1{
 /*----------------*/
 #tab{
     display: flex;
-    border:3px solid red;
     border-spacing: 0px;
     width: 100%;
 }
 
 #tab table{
+    border-collapse: collapse;
+    border-radius: 7px;       
+    overflow: hidden;   
     width:100%;
     margin-right: 10px;
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.3);
 }
 
 #tab th{
-    border:3px solid blue;
-    color:black;
+    background-color:#1e4f74;
+    border : 1px solid black;
+    color:white;
+    padding:2px;
 }
 
 #tab td, td input{
     color: black;
-    border:1px solid orange;
-}
-
-table{
-    border: 3px solid yellowgreen;
+    border:1px solid black;
+    padding:2px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 input{
     width: 100%;
+    height: 100%;
 }
+
+.maj0{background-color: #527A95;}
+.maj1{background-color: #7AA5B7;}
+.maj2{background-color: #A2CED8;}
+.maj3{background-color: #C8E6EB;}
+.maj3 input{background-color: #C8E6EB; border: none;}
+
+.min0{background-color: #527A95}
+.min1{background-color: #7AA5B7;}
+.min2{background-color: #A2CED8;}
+.min3{background-color: #C8E6EB;}
+.min3 input{background-color: #C8E6EB; border: none;}
+
+.tra0{background-color: #527A95}
+.tra1{background-color: #7AA5B7;}
+.tra2{background-color: #A2CED8;}
+.tra3{background-color: #C8E6EB;}
+.tra3 input{background-color: #C8E6EB; border: none;}
+
 
 /*----------------*/
 /*     POLICE     */
@@ -106,3 +143,37 @@ input{
     text-align:left;
 }
 
+/*----------------*/
+/*     foot     */
+/*----------------*/
+
+footer{
+    background-color: #1e4f74;
+}
+
+footer #info{
+  display: flex;
+  padding: 5px;
+}
+
+footer h3{
+  padding: 5px;
+  color:white;
+  vertical-align: top;
+}
+
+footer table{
+    color:white;
+}
+
+footer table tr td a{
+    text-decoration: none;
+    color:white;
+}
+
+footer img{
+    width: 15px;
+    height: 15px;
+    vertical-align:middle;
+    margin-right:3px;
+}
