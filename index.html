@@ -1,5 +1,5 @@
 <head>
-  <title>Calcul Moyenne</title>
+  <title>Calcul Moyenne L1</title>
   <link rel="icon" href="/img/logo.png">
 
   <meta charset="utf-8">
@@ -10,56 +10,88 @@
   <script src="script.js"></script>
 </head>
 <body>
-    <h1 class="Lilita_normal text_center">Calcul moyenne</h1>
-    <h2 class="lexend_bold text_center" id="titre_fil_prom">Sélectionne ta filière et ta promotion</h2>
+  <h1 class="Lilita_normal text_center">Calcul moyenne</h1>
+  <h2 class="lexend_bold text_center" id="titre_fil_prom">Sélectionne ta filière et ta promotion</h2>
 
-    <!-- /* Choix de la fac + promotiion */ -->
-    <div class="lexend_normal" id="choix_parcours">
-      <div class="lexend_bold">Filière</div>
-      <select class="lexend_normal" id="filiere_select" name="filiere">
-        <option value="">---</option>
-        <option value="Chimie">Chimie</option>
-        <option value="Informatique">Informatique</option>
-        <option value="Math">Math</option>
-        <option value="MIASHS">MIASHS</option>
-        <option value="Physique">Physique</option>
-        <option value="SPI">SPI</option>
-        <option value="Sciences de la Terre">Sciences de la Terre</option>
-        <option value="Sciences de la Vie">Sciences de la Vie</option>
-        <option value="Prof Agronomie">Prof Agronomie</option>
-      </select>
+  <!-- /* Choix de la fac + promotiion */ -->
+  <div class="lexend_normal" id="choix_parcours">
+    <div class="lexend_bold">Filière
+    <select class="lexend_normal" id="filiere_select" name="filiere">
+      <option selected disabled class="placeholder">Choisir la filière</option>
+      <option value="Chimie">Chimie</option>
+      <option value="Informatique">Informatique</option>
+      <option value="Mathématiques">Mathématiques</option>
+      <option value="MIASHS">MIASHS</option>
+      <option value="Physique">Physique</option>
+      <option value="SPI">SPI</option>
+      <option value="Sciences de la Terre">Sciences de la Terre</option>
+      <option value="Sciences de la Vie">Sciences de la Vie</option>
+      <option value="Prof Agronomie">Prof Agronomie</option>
+    </select></div>
 
     <p></p>
-    <div class="lexend_bold">Promotion</div>
+    <div class="lexend_bold">Promotion
     <select class="lexend_normal" id="promotion_select" name="promotion">
-      <option value="">---</option>
+      <option selected disabled class="placeholder">Choisir la promotion</option>
       <option value="L1">L1</option>
       <option value="L2">L2</option>
       <option value="L3">L3</option>
-      <option value="M1">M1</option>
-      <option value="M2">M2</option>
-    </select>
+    </select></div>
     <p></p>
+    <div class="lexend_bold" id="specialite">Spécialité
+    <select class="lexend_normal" id="specialite_select" name="promotion">
+      <option selected disabled class="placeholder">Choisir la spécialité</option>
+    </select></div>
+    <p></p>
+    
+
+
+    
   </div>
 
   <div id="calcul_moyenne">
     <div id="tab">
-        <table>
+      <table>
 
-        </table>
-        <table>
+      </table>
+      <table>
 
-        </table>
+      </table>
     </div>
 
     <div>
-        <h3 class="Lilita_normal text_center" id="moy_gen">MOYENNE GENÉRALE : 0.000</h3>
+      <h3 class="Lilita_normal text_center" id="moy_gen">MOYENNE GENÉRALE : 0.000</h3>
     </div>
   </div>
 
-  <div id="en_cours" class="text_center lexend_bold">
-     <h2>Pas encore créé</h2>
-  </div>
-
+  <footer class="lexend_normal" style="width:100%; ">
+    <div id="info">
+      <table style="width:100%" class="text_center"> 
+        <tr style="font-size:12px;">
+          <th style="width:33%; padding: 8px;"> CONTACTS </th>
+          <th style="width:33%;"> RÉSEAUX </th>
+          <th style="width:33%;"> MISE À JOUR </th>
+        </tr>
+        <tr style="vertical-align: top; font-size:12px">
+          <td style="width:33%; padding-bottom: 8px;"> 
+            <a href="https://forms.gle/NoZ2CybVgiJKJrrP6"> Signaler un problème<a> <br>
+            <a href="mailto:python.fournaise974@gmail.com"> Envoyer un mail</a>
+          </td>
+          <td style="width:33%; padding-bottom: 8px"> 
+            <a href="https://www.instagram.com/pythondelafournaise/"><img src="img/instagram.png" alt="Instagram">Instagram</a> <br>
+            <a href="https://discord.gg/G5aKtQumfN"><img src="img/discord.png" alt="Discord">Discord</a> <br>
+            <a href="https://www.helloasso.com/associations/python-de-la-fournaise"><img src="img/helloasso.png" alt="HelloAsso">HelloAsso</a> <br>
+            <a href="https://www.linkedin.com/company/association-python-de-la-fournaise"><img src="img/linkedin.png" alt="Linkedin">Linkedin</a>
+          </td style="width:33%; padding-bottom: 8px">
+          <td>Dernière mise à jour le <br>24/10/2025</td>
+        </tr>
+      </table>
+    </div>
+    <div>
+      <h3 class="Lilita_normal text_center" style="margin:0px;">©<img src="img/logo2.png"style="width:35px;height:35px;vertical-align:middle;">Python de la Fournaise</h3>
+      <i style="font-size: 12px;display:block; text-align: center;padding-right:15px;padding-bottom:15px;color:white;">Coding by Eredeti</i>
+    </div>
+  </footer>
 </body>
 
+<!-- TODO : les liens du foot -->
