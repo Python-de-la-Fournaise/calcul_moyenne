@@ -6,7 +6,7 @@
 /*----------------*/
 body{
     background-color: #fdf3d6;
-    font-size: 18px;
+    font-size: 18px; 
 }
 
 h1, h3{
@@ -177,3 +177,4 @@ footer img{
     vertical-align:middle;
     margin-right:3px;
 }
+
