@@ -1,5 +1,5 @@
 $(() => {
-    // --- GESTION DES COOKIES --- //
+    // --- GESTION DES COOKIES --- // 
     const setCookie = (name, value, days = 365) => {
         const d = new Date();
         d.setTime(d.getTime() + (days*24*60*60*1000));
@@ -292,3 +292,4 @@ $(() => {
     });
 
 });
+
