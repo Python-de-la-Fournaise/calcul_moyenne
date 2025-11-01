@@ -435,7 +435,7 @@ $(() => {
         }
 
         majTitre();
-        setTabs();
+        if(ufr && spe && fil) setTabs();
         restoreNotes();
         setListes();
         
@@ -445,3 +445,4 @@ $(() => {
     });
 
 });
+
