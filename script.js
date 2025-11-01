@@ -117,6 +117,13 @@ $(() => {
 
     // Construis les tableaux avec les données dans data.json
     const setTabs = () => {
+
+        // Si UFR non sélectionnée : Règle problème avec nouvie cookie ufr et ancien user
+        if (!ufr) {
+            resetTabs(); // vide les tableaux au cas où
+            return;
+        }
+        
         let semestres;
 
         resetTabs();
@@ -435,7 +442,7 @@ $(() => {
         }
 
         majTitre();
-        if(ufr && spe && fil) setTabs();
+        setTabs();
         restoreNotes();
         setListes();
         
@@ -445,4 +452,5 @@ $(() => {
     });
 
 });
+
 
