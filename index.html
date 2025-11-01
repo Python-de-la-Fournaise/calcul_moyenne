@@ -1,6 +1,6 @@
 <head>
   <title>Calcul Moyenne L1</title>
-  <link rel="icon" href="/img/logo.png">
+  <link rel="icon" href="img/logo.png">
 
   <meta charset="utf-8">
 
@@ -11,37 +11,42 @@
 </head>
 <body>
   <h1 class="Lilita_normal text_center">Calcul moyenne</h1>
-  <h2 class="lexend_bold text_center" id="titre_fil_prom">Sélectionne ta filière et ta promotion</h2>
+  <h2 class="lexend_bold text_center" id="titre_fil_prom">Sélectionne ton UFR</h2>
+
+
 
   <!-- /* Choix de la fac + promotiion */ -->
   <div class="lexend_normal" id="choix_parcours">
-    <div class="lexend_bold">Filière
-    <select class="lexend_normal" id="filiere_select" name="filiere">
-      <option selected disabled class="placeholder">Choisir la filière</option>
-      <option value="Chimie">Chimie</option>
-      <option value="Informatique">Informatique</option>
-      <option value="Mathématiques">Mathématiques</option>
-      <option value="MIASHS">MIASHS</option>
-      <option value="Physique">Physique</option>
-      <option value="SPI">SPI</option>
-      <option value="Sciences de la Terre">Sciences de la Terre</option>
-      <option value="Sciences de la Vie">Sciences de la Vie</option>
-      <option value="Prof Agronomie">Prof Agronomie</option>
+      <!-- /* Choix de la fac + promotiion */ -->
+    <div class="lexend_bold">UFR
+    <select class="lexend_normal" id="ufr_select" name="ufr">
+      <option selected disabled class="placeholder">Choisir l'UFR</option>
+      <option value="de">Droit et Économie</option>
+      <option value="st">Sciences et Technologies</option>
+      <option value="lsh">Lettres et Sciences Humaines</option>
+      <!-- <option value="she">Sciences de l'Homme et de l'Environnement</option>
+      <option value="sante">Santé</option> -->
     </select></div>
 
     <p></p>
-    <div class="lexend_bold">Promotion
-    <select class="lexend_normal" id="promotion_select" name="promotion">
-      <option selected disabled class="placeholder">Choisir la promotion</option>
-      <option value="L1">L1</option>
-      <option value="L2">L2</option>
-      <option value="L3">L3</option>
+
+    <div class="lexend_bold choix_fil_prom">Filière
+      <select class="lexend_normal" id="filiere_select" name="filiere">
     </select></div>
+
     <p></p>
+    <div class="lexend_bold choix_fil_prom">Promotion
+      <select class="lexend_normal" id="promotion_select" name="promotion">
+        <option selected disabled class="placeholder">Choisir la promotion</option>
+        <option value="L1">L1</option>
+        <option value="L2">L2</option>
+        <option value="L3">L3</option>
+      </select></div>
+      <p></p>
     <div class="lexend_bold" id="specialite">Spécialité
-    <select class="lexend_normal" id="specialite_select" name="promotion">
-      <option selected disabled class="placeholder">Choisir la spécialité</option>
-    </select></div>
+      <select class="lexend_normal" id="specialite_select" name="promotion">
+        <option selected disabled class="placeholder">Choisir la spécialité</option>
+      </select></div>
     <p></p>
     
 
@@ -93,5 +98,3 @@
     </div>
   </footer>
 </body>
-
-<!-- TODO : les liens du foot -->
