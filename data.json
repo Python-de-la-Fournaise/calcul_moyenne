@@ -1,4 +1,3 @@
-
 {
     "Chimie L1": {
         "SEMESTRE 1": {
@@ -2174,7 +2173,7 @@
             ]
         }
     },
-    "Prof Agronomie L1": {
+    "Prof Agronomie L3": {
         "SEMESTRE 1": {
             "maj": 9,
             "min": 0,
@@ -2201,9 +2200,7 @@
                 2,
                 1
             ]
-        }
-    },
-    "Prof Agronomie L3": {
+        },
         "SEMESTRE 2": {
             "maj": 4,
             "min": 0,
@@ -2221,6 +2218,3057 @@
                 13
             ]
         }
+    },
+    "Administration Economique et Sociale (AES) L1": {
+        "SEMESTRE 1": {
+            "maj": 4,
+            "min": 1,
+            "tra": 3,
+            "cours": [
+                "Introduction au droit",
+                "Principes généraux de l’économie",
+                "Introduction à la gestion",
+                "Introduction à la sociologie",
+                "Maths appliquées (Rappels)",
+                "Mineure au choix",
+                "Accompagnement et méthodologie universitaire",
+                "Anglais (distanciel 100%)",
+                "UEO"
+            ],
+            "coeff": [
+                4,
+                3,
+                3,
+                3,
+                5,
+                6,
+                2,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 2": {
+            "maj": 5,
+            "min": 1,
+            "tra": 3,
+            "cours": [
+                "Comptabilité générale",
+                "Introduction à la macroéconomie",
+                "Introduction à la microéconomie",
+                "Mathématiques pour l'économie et la gestion",
+                "Statistiques descriptives pour l'économie et la gestion",
+                "Mineure au choix",
+                "Anglais (distantiel 50%)",
+                "PPP-Culture générale (distanciel 100%)",
+                "UEO"
+            ],
+            "coeff": [
+                3,
+                4,
+                4,
+                3,
+                4,
+                6,
+                2,
+                2,
+                2
+            ]
+        }
+    },
+    "Administration Economique et Sociale (AES) L2": {
+        "SEMESTRE 3": {
+            "maj": 5,
+            "min": 1,
+            "tra": 3,
+            "cours": [
+                "Comptabilité de gestion",
+                "Economie monétaire",
+                "Macroéconomie fermée",
+                "Mathématiques pour l'économie et la gestion",
+                "Microéconomie 1",
+                "Mineure au choix",
+                "Projet professionnel étudiant",
+                "Informatique pour l'économie et la gestion",
+                "Projet professionnel étudiant"
+            ],
+            "coeff": [
+                3,
+                3,
+                4,
+                4,
+                4,
+                6,
+                2,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 4": {
+            "maj": 5,
+            "min": 1,
+            "tra": 3,
+            "cours": [
+                "Finance d'entreprise",
+                "Macroéconomie ouverte",
+                "Mathématiques pour l'économie et la gestion",
+                "Microéconomie 2",
+                "Probabilités et statistiques pour l'économie et la gestion",
+                "Mineure au choix",
+                "Anglais (distanciel 50%)",
+                "Insertion professionnelle et techniques de",
+                "Système d'information et bases de données"
+            ],
+            "coeff": [
+                4,
+                3,
+                4,
+                3,
+                4,
+                6,
+                2,
+                2,
+                2
+            ]
+        }
+    },
+    "Administration Economique et Sociale (AES) L3": {
+        "SEMESTRE 5": {
+            "maj": 5,
+            "min": 1,
+            "tra": 3,
+            "cours": [
+                "Commerce international",
+                "Histoire de la pensée économique",
+                "Introduction à la théorie des jeux",
+                "Macrodynamique appliquée",
+                "Statistique inférentielle",
+                "Mineure au choix",
+                "Anglais (distanciel 50% )",
+                "Outils numériques, valorisation et insertion",
+                "UEO"
+            ],
+            "coeff": [
+                4,
+                3,
+                4,
+                3,
+                4,
+                6,
+                2,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 6": {
+            "maj": 5,
+            "min": 1,
+            "tra": 3,
+            "cours": [
+                "Analyse des données",
+                "Croissance économique",
+                "Econométrie",
+                "Economie publique",
+                "Microéconomie approfondie",
+                "Mineure au choix",
+                "Anglais (distanciel 50%)",
+                "Outils numériques, valorisation et insertion professionnelle",
+                "Stage anticipé ou UEO"
+            ],
+            "coeff": [
+                4,
+                3,
+                4,
+                3,
+                4,
+                6,
+                2,
+                2,
+                2
+            ]
+        }
+    },
+    "AES Licence Accès Santé (LAS) L1": {
+        "SEMESTRE 1": {
+            "maj": 4,
+            "min": 1,
+            "tra": 3,
+            "cours": [
+                "Introduction au droit",
+                "Principes généraux de l’économie",
+                "Introduction à la gestion",
+                "Introduction à la sociologie",
+                "Maths appliquées (Rappels)",
+                "Mineure Santé",
+                "Accompagnement et méthodologie universitaire",
+                "Anglais (distanciel 100%)",
+                "Transversale Santé"
+            ],
+            "coeff": [
+                4,
+                3,
+                3,
+                3,
+                5,
+                6,
+                2,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 2": {
+            "maj": 4,
+            "min": 2,
+            "tra": 1,
+            "cours": [
+                "Droit constitutionnel",
+                "Introduction à la macroéconomie",
+                "Comptabilité générale",
+                "Méthodes quantitatives (Statistiques)",
+                "Mineure Santé 1",
+                "Mineure Santé 2",
+                "Transversale Santé"
+            ],
+            "coeff": [
+                3,
+                5,
+                5,
+                5,
+                5,
+                5,
+                2
+            ]
+        }
+    },
+    "AES Licence Accès Santé (LAS) L2": {
+        "SEMESTRE 3": {
+            "maj": 5,
+            "min": 1,
+            "tra": 3,
+            "cours": [
+                "Droit des obligations",
+                "Economie monétaire",
+                "Méthodes quantitatives (maths)",
+                "Sociologie (politique)",
+                "Comptabilité de gestion",
+                "Mineure au choix",
+                "Projet professionnel étudiant",
+                "Anglais (distanciel 50%)",
+                "Informatique"
+            ],
+            "coeff": [
+                4,
+                4,
+                4,
+                3,
+                3,
+                6,
+                2,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 4": {
+            "maj": 5,
+            "min": 2,
+            "tra": 2,
+            "cours": [
+                "Droit des affaires",
+                "Finance d'entreprise",
+                "Sociologie de l'éducation",
+                "Méthodes quantitatives (Proba)",
+                "Marchés financiers",
+                "Mineure Santé 1",
+                "Mineure Santé 2",
+                "Anglais (distanciel 50%)",
+                "Système d'information et bases de données"
+            ],
+            "coeff": [
+                4,
+                3,
+                4,
+                3,
+                4,
+                5,
+                3,
+                2,
+                2
+            ]
+        }
+    },
+    "AES Licence Accès Santé (LAS) L3": {
+        "SEMESTRE 5": {
+            "maj": 4,
+            "min": 1,
+            "tra": 3,
+            "cours": [
+                "Droit administratif",
+                "Croissance et développement",
+                "Calcul économique et théorie des jeux",
+                "Statistiques appliquées",
+                "Mineure Santé",
+                "Anglais (distanciel 50% )",
+                "Informatique",
+                "Transversale Santé"
+            ],
+            "coeff": [
+                5,
+                5,
+                5,
+                3,
+                6,
+                2,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 6": {
+            "maj": 5,
+            "min": 2,
+            "tra": 1,
+            "cours": [
+                "Droit du travail",
+                "Economie et finance internationale",
+                "Histoire de la pensée économique",
+                "Ressources naturelles et environnement",
+                "Méthodes d'enquête",
+                "Mineure Santé 1",
+                "Mineure Santé 2",
+                "Transversale Santé"
+            ],
+            "coeff": [
+                4,
+                4,
+                4,
+                3,
+                3,
+                5,
+                5,
+                2
+            ]
+        }
+    },
+    "Economie Gestion": {
+        "L1": {
+            "maj": 3,
+            "min": 1,
+            "tra": 3,
+            "cours": [
+                "Principes généraux de l'économie - CORE",
+                "Principes généraux de la gestion",
+                "Mathématiques",
+                "Mineure au choix",
+                "Accompagnement et méthodologie universitaire",
+                "Anglais (distanciel 100%)",
+                "UEO"
+            ],
+            "coeff": [
+                6,
+                6,
+                6,
+                6,
+                2,
+                2,
+                2
+            ]
+        }
+    },
+    "Adaptation Technicien Supérieur (ATS) L3": {
+        "SEMESTRE 5": {
+            "maj": 8,
+            "min": 0,
+            "tra": 0,
+            "cours": [
+                "Préparation aux concours 1",
+                "Logistique",
+                "Droit administratif",
+                "Sociologie des organisations",
+                "Droit des affaires",
+                "Mathématiques",
+                "Outils pour l’insertion professionnelle",
+                "Anglais"
+            ],
+            "coeff": [
+                5,
+                4,
+                3,
+                3,
+                5,
+                4,
+                3,
+                3
+            ]
+        },
+        "SEMESTRE 6": {
+            "maj": 8,
+            "min": 0,
+            "tra": 0,
+            "cours": [
+                "Ressources humaines",
+                "Préparation aux concours 2",
+                "Méthodes d'enquête",
+                "Outils numériques, valorisation et insertion professionnelle",
+                "Droit du travail",
+                "Economie et finance internationale",
+                "Diagnostic financier",
+                "Anglais"
+            ],
+            "coeff": [
+                4,
+                4,
+                4,
+                3,
+                4,
+                4,
+                4,
+                3
+            ]
+        }
+    },
+    "Classes Préparatoires aux Études Supérieures (CPES) L1": {
+        "SEMESTRE 1": {
+            "maj": 8,
+            "min": 0,
+            "tra": 0,
+            "cours": [
+                "Humanités",
+                "Argumentations écrites et orales",
+                "Mathématiques",
+                "Statistiques descriptives",
+                "Principes généraux de l'économie",
+                "Ingénierie de projet pour la physique",
+                "Anglais",
+                "Education physique et sportive"
+            ],
+            "coeff": [
+                4,
+                3,
+                6,
+                5,
+                4,
+                4,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 2": {
+            "maj": 8,
+            "min": 0,
+            "tra": 0,
+            "cours": [
+                "Introduction à la microéconomie",
+                "Mathématiques",
+                "Humanités argumentations écrites et orales",
+                "Introduction à la macroéconomie",
+                "Géo-économie de l'océan indien",
+                "Rentabilité et choix d'investissement",
+                "Anglais",
+                "Stage anglais intensif"
+            ],
+            "coeff": [
+                5,
+                5,
+                5,
+                5,
+                3,
+                3,
+                2,
+                2
+            ]
+        }
+    },
+    "Classes Préparatoires aux Études Supérieures (CPES) L2": {
+        "SEMESTRE 3": {
+            "maj": 9,
+            "min": 0,
+            "tra": 0,
+            "cours": [
+                "Economie monétaire",
+                "Macroéconomie fermée",
+                "Mathématiques",
+                "Microéconomie 1",
+                "Economie et psychologie",
+                "Probabilités et statistiques 1",
+                "Anglais",
+                "Humanités argumentations écrites et orales",
+                "Informatique 1"
+            ],
+            "coeff": [
+                4,
+                4,
+                4,
+                4,
+                2,
+                4,
+                2,
+                4,
+                2
+            ]
+        },
+        "SEMESTRE 4": {
+            "maj": 9,
+            "min": 0,
+            "tra": 0,
+            "cours": [
+                "Macroéconomie ouverte",
+                "Mathématiques",
+                "Microéconomie 2",
+                "Economie de l'environnement",
+                "Marchés financiers",
+                "Probabilités et statistiques 2",
+                "Anglais",
+                "Humanités argumentations écrites et orales",
+                "Informatique 2"
+            ],
+            "coeff": [
+                4,
+                4,
+                4,
+                4,
+                3,
+                3,
+                2,
+                4,
+                2
+            ]
+        }
+    },
+    "Classes Préparatoires aux Études Supérieures (CPES) L3": {
+        "SEMESTRE 5": {
+            "maj": 10,
+            "min": 0,
+            "tra": 0,
+            "cours": [
+                "Calcul économique",
+                "Commerce international",
+                "Introduction à la théorie des jeux",
+                "Macrodynamique appliquée",
+                "Statistique inférentielle",
+                "Economie monétaire international",
+                "Economie de La Réunion",
+                "Anglais",
+                "Humanités argumentations écrites et orales",
+                "Algorithme et programmation"
+            ],
+            "coeff": [
+                3,
+                3,
+                4,
+                4,
+                4,
+                2,
+                2,
+                2,
+                4,
+                2
+            ]
+        },
+        "SEMESTRE 6": {
+            "maj": 10,
+            "min": 0,
+            "tra": 0,
+            "cours": [
+                "Analyse des données",
+                "Croissance économique",
+                "Econométrie",
+                "Economie publique",
+                "Microéconomie approfondie",
+                "Diagnostic financie",
+                "Economie des inégalités",
+                "Anglais",
+                "Humanités argumentations écrites et orales",
+                "Stage"
+            ],
+            "coeff": [
+                3,
+                3,
+                4,
+                3,
+                3,
+                3,
+                3,
+                2,
+                4,
+                2
+            ]
+        }
+    },
+    "Droit L1": {
+        "SEMESTRE 1": {
+            "maj": 3,
+            "min": 2,
+            "tra": 3,
+            "cours": [
+                "Introduction au droit",
+                "Droit constitutionnel - I",
+                "Droit des personnes",
+                "Projet personnel et professionnel 1",
+                ": Sante maladie thérapeutique handicap 1",
+                "Méthodologie",
+                "Anglais MOOC (100% distanciel)",
+                "UEO"
+            ],
+            "coeff": [
+                6,
+                6,
+                4,
+                3,
+                5,
+                2,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 2": {
+            "maj": 3,
+            "min": 2,
+            "tra": 3,
+            "cours": [
+                "Droit de la famille",
+                "Droit constitutionnel - II",
+                "Institutions juridictionnelles & administratives",
+                "Projet personnel et professionnel - option santé 1",
+                "Sante maladie thérapeutique handicap 2",
+                "Anglais",
+                "PPP (UEOO)",
+                "Méthodologie"
+            ],
+            "coeff": [
+                6,
+                6,
+                4,
+                5,
+                5,
+                2,
+                2,
+                2
+            ]
+        }
+    },
+    "Droit L2": {
+        "SEMESTRE 3": {
+            "maj": 4,
+            "min": 2,
+            "tra": 2,
+            "cours": [
+                "Droit des obligations - I",
+                "Droit administratif général - I",
+                "Droit pénal général - I",
+                "Finances publiques",
+                "Science politique",
+                "Histoire du droit privé",
+                "Anglais juridique",
+                "Préparation à la certification PIX"
+            ],
+            "coeff": [
+                6,
+                6,
+                3,
+                3,
+                4,
+                4,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 4": {
+            "maj": 5,
+            "min": 2,
+            "tra": 2,
+            "cours": [
+                "Droit des obligations - II",
+                "Droit administratif général - II",
+                "Droit pénal général - II",
+                "Procédure civile",
+                "Droit fiscal",
+                "Institutions européennes",
+                "Projet personnel et professionnel",
+                "Anglais juridique (18 heures en distanciel)",
+                "UEO"
+            ],
+            "coeff": [
+                5,
+                5,
+                3,
+                3,
+                2,
+                3,
+                5,
+                2,
+                2
+            ]
+        }
+    },
+    "Droit L3": {
+        "SEMESTRE 5": {
+            "maj": 5,
+            "min": 2,
+            "tra": 2,
+            "cours": [
+                "Contrats spéciaux - I",
+                "Droits et libertés fondamentales",
+                "Droit des biens",
+                "PARCOURS DROIT 1",
+                "PARCOURS DROIT 2",
+                "Anthropologie du droit",
+                "Communication & Médias",
+                "Anglais juridique (18 heures en distanciel)",
+                "Préparation à la certification PIX (UEOO)"
+            ],
+            "coeff": [
+                6,
+                3,
+                3,
+                4,
+                4,
+                3,
+                3,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 6": {
+            "maj": 5,
+            "min": 2,
+            "tra": 2,
+            "cours": [
+                "Système juridique de l'Union Européenne",
+                "Droit des société",
+                "Procédure pénale",
+                "PARCOURS DROIT 1",
+                "PARCOURS DROIT 2",
+                "Histoire de l'Etat et de l'administration",
+                "Projet personnel et professionnel",
+                "Anglais juridique",
+                "UEO"
+            ],
+            "coeff": [
+                6,
+                3,
+                3,
+                3,
+                3,
+                3,
+                5,
+                2,
+                2
+            ]
+        }
+    },
+    "Droit Classes préparatoires aux grandes écoles (CPGE) L1": {
+        "SEMESTRE 1": {
+            "maj": 3,
+            "min": 5,
+            "tra": 0,
+            "cours": [
+                "Introduction au droit",
+                "Droit constitutionnel - I",
+                "Droit des personnes",
+                "Economie – I",
+                "Droit civil - I",
+                "Option au choix",
+                "Anglais – I",
+                "LV2 au choix",
+                "Approfondissement méthodologique - I"
+            ],
+            "coeff": [
+                6,
+                6,
+                4,
+                3,
+                3,
+                2,
+                0,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 2": {
+            "maj": 3,
+            "min": 5,
+            "tra": 0,
+            "cours": [
+                "Droit de la famille",
+                "Droit constitutionnel - II",
+                "Institutions juridictionnelles & administratives",
+                "Economie - II",
+                "Droit civil - II",
+                "Option au choix",
+                "Anglais – II",
+                "LV2 au choix",
+                "Approfondissement méthodologique – II"
+            ],
+            "coeff": [
+                6,
+                6,
+                4,
+                3,
+                3,
+                2,
+                0,
+                2,
+                2
+            ]
+        }
+    },
+    "Droit Classes préparatoires aux grandes écoles (CPGE) L2": {
+        "SEMESTRE 3": {
+            "maj": 3,
+            "min": 6,
+            "tra": 0,
+            "cours": [
+                "Droit des obligations - I",
+                "Droit administratif général - I",
+                "Droit pénal général - I",
+                "Finances publiques",
+                "Economie - III",
+                "Droit civil - III",
+                "Option au choix",
+                "Anglais – III",
+                "LV2 au choix",
+                "Approfondissement méthodologique – III"
+            ],
+            "coeff": [
+                6,
+                6,
+                3,
+                3,
+                2,
+                2,
+                2,
+                0,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 4": {
+            "maj": 3,
+            "min": 6,
+            "tra": 0,
+            "cours": [
+                "Droit des obligations - II",
+                "Droit administratif général - II",
+                "Institutions européennes",
+                "Economie - IV",
+                "Droit civil - IV",
+                "Option au choix",
+                "Anglais – III",
+                "LV2 au choix",
+                "Approfondissement méthodologique – III"
+            ],
+            "coeff": [
+                5,
+                5,
+                3,
+                4,
+                4,
+                3,
+                2,
+                2,
+                2
+            ]
+        }
+    },
+    "Parcours Préparatiore au Professorat des Ecoles (PPPE) L1": {
+        "SEMESTRE 1": {
+            "maj": 5,
+            "min": 3,
+            "tra": 4,
+            "cours": [
+                "Introduction au droit",
+                "Principes généraux de l’économie",
+                "Introduction au droit",
+                "Français 1",
+                "Mathématiques 1",
+                "Philosophie morale et politique 1",
+                "Histoire-géographie 1",
+                "Sciences et technologie 1",
+                "Accompagnement individualisé 1",
+                "Langue vivante 1",
+                "Arts plastiques et éducation musicale 1",
+                "UEO (EPS1)"
+            ],
+            "coeff": [
+                3,
+                3,
+                3,
+                5,
+                5,
+                2,
+                2,
+                2,
+                0,
+                2,
+                1,
+                2
+            ]
+        },
+        "SEMESTRE 2": {
+            "maj": 5,
+            "min": 3,
+            "tra": 4,
+            "cours": [
+                "Droit constitutionnel",
+                "Introduction à la macroéconomie",
+                "culture générale",
+                "Français 2",
+                "Mathématiques 2",
+                "Philosophie morale et politique 2",
+                "Histoire-géographie 2",
+                "Sciences et technologie 2",
+                "Accompagnement individualisé 2",
+                "Langue vivante 2",
+                "Arts plastiques et éducation musicale 2",
+                "UEO (EPS2)"
+            ],
+            "coeff": [
+                3,
+                3,
+                3,
+                4,
+                4,
+                2,
+                2,
+                2,
+                3,
+                2,
+                1,
+                1
+            ]
+        }
+    },
+    "Parcours Préparatiore au Professorat des Ecoles (PPPE) L2": {
+        "SEMESTRE 3": {
+            "maj": 5,
+            "min": 3,
+            "tra": 4,
+            "cours": [
+                "Droit des obligations",
+                "Economie monétaire",
+                "Sociologie politique",
+                "Français 1",
+                "Mathématiques 1",
+                "Philosophie morale et politique 1",
+                "Histoire-géographie 1",
+                "Sciences et technologie 1",
+                "Accompagnement individualisé 1",
+                "Langue vivante 1",
+                "Arts plastiques et éducation musicale 1",
+                "UEO (EPS1)"
+            ],
+            "coeff": [
+                5,
+                5,
+                5,
+                4,
+                4,
+                1,
+                2,
+                1,
+                0,
+                1,
+                1,
+                1
+            ]
+        },
+        "SEMESTRE 4": {
+            "maj": 5,
+            "min": 3,
+            "tra": 4,
+            "cours": [
+                "Droit des affaires",
+                "sociologie de l'éducation",
+                "Marchés financiers",
+                "Français 2",
+                "Mathématiques 2",
+                "Philosophie morale et politique 2",
+                "Histoire-géographie 2",
+                "Sciences et technologie 2",
+                "Accompagnement individualisé 2",
+                "Langue vivante 2",
+                "Arts plastiques et éducation musicale 2",
+                "UEO (EPS2)"
+            ],
+            "coeff": [
+                5,
+                5,
+                5,
+                3,
+                3,
+                1,
+                1,
+                1,
+                3,
+                1,
+                1,
+                1
+            ]
+        }
+    },
+    "Parcours Préparatiore au Professorat des Ecoles (PPPE) L3": {
+        "SEMESTRE 5": {
+            "maj": 4,
+            "min": 3,
+            "tra": 4,
+            "cours": [
+                "Droit administratif",
+                "Croissance et développement",
+                "Sociologie des organisations",
+                "Mathématiques",
+                "Economie de La Réunion",
+                "Préparation aux concours",
+                "Philosophie morale et politique",
+                "Outils numériques",
+                "Accompagnement individualisé 1",
+                "Langue vivante",
+                "UEO"
+            ],
+            "coeff": [
+                5,
+                5,
+                3,
+                2,
+                3,
+                3,
+                2,
+                3,
+                2,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 6": {
+            "maj": 4,
+            "min": 3,
+            "tra": 3,
+            "cours": [
+                "Droit du travail",
+                "Ressources naturelles et environnement",
+                "Méthodes d'enquête",
+                "Français",
+                "Préparation aux concours 2",
+                "Histoire-géographie",
+                "Sciences et technologie",
+                "Outils numériques 2",
+                "Accompagnement individualisé 2",
+                "UEO"
+            ],
+            "coeff": [
+                4,
+                3,
+                3,
+                2,
+                3,
+                2,
+                2,
+                3,
+                6,
+                2
+            ]
+        }
+    },
+    "Licence Administration Publique (LAP) L3": {
+        "SEMESTRE 5": {
+            "maj": 5,
+            "min": 3,
+            "tra": 3,
+            "cours": [
+                "Droit constitutionnel",
+                "Droit administratif 1",
+                "Note de synthèse",
+                "Éléments de culture juridique générale",
+                "Méthodologie des épreuves de concours",
+                "Finances nationales et européennes",
+                "Économie",
+                "politiques et sociaux contemporains",
+                "LVE (langue vivante étrangère",
+                "Culture numérique",
+                "Conférences et découverte des métiers ou UEO"
+            ],
+            "coeff": [
+                5,
+                5,
+                3,
+                1,
+                1,
+                3,
+                2,
+                4,
+                2,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 6": {
+            "maj": 4,
+            "min": 2,
+            "tra": 3,
+            "cours": [
+                "Droit de l'Union européenne",
+                "Droit administratif 2",
+                "Droit de la fonction publique et gestion publique",
+                "Note de synthèse",
+                "Finances locales",
+                "Culture générale",
+                "LVE (langue vivante étrangère)",
+                "Entretien (oral) et P.P.P.",
+                "Conférences et découverte des métiers ou UEO"
+            ],
+            "coeff": [
+                4,
+                4,
+                4,
+                3,
+                3,
+                6,
+                1,
+                3,
+                2
+            ]
+        }
+    },
+    "LLCER Allemand L1": {
+        "SEMESTRE 1": {
+            "maj": 8,
+            "min": 1,
+            "tra": 3,
+            "cours": [
+                "Grammaire",
+                "Expression et compréhension orales",
+                "Expression et compréhension écrites",
+                "Initiation à la traduction (thème et version)",
+                "Actualités dans les pays germanophones",
+                "Panorama de la littérature des pays germanophones 1 : XVIIIème et XIXème siècles",
+                "Sociétés contemporaines : Allemagne",
+                "Méthodologie pour les études d'allemand",
+                "Mineure au choix",
+                "LVE au choix",
+                "Passeport numérique documentaire",
+                "UEO"
+            ],
+            "coeff": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                3,
+                3,
+                2,
+                6,
+                2,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 2": {
+            "maj": 8,
+            "min": 1,
+            "tra": 3,
+            "cours": [
+                "Grammaire",
+                "Expression compréhension écrites et orales",
+                "Phonétique",
+                "Thème",
+                "Version",
+                "Panorama de la littérature des pays germanophones 2 : XXème et XXIème siècles",
+                "Sociétés Contemporaines : Autriche et Suisse",
+                "Méthodologie disciplinaire : Lire une œuvre",
+                "Mineure au choix",
+                "LVE au choix",
+                "Tandem",
+                "UEO"
+            ],
+            "coeff": [
+                3,
+                2,
+                2,
+                2,
+                2,
+                2,
+                3,
+                2,
+                6,
+                2,
+                2,
+                2
+            ]
+        }
+    },
+    "LLCER Allemand L2": {
+        "SEMESTRE 3": {
+            "maj": 9,
+            "min": 1,
+            "tra": 3,
+            "cours": [
+                "Grammaire",
+                "Expression-compréhension écrites et orales",
+                "Version journalistique",
+                "Thème journalistique",
+                "Civilisation et histoire des idées au XVIIIème siècle",
+                "Etude d'un thème",
+                "Littérature Francophones : identités, cultures et sociétés",
+                "Méthodologie disciplinaire:analyse des documents iconographiques",
+                "Prépro : l'enseignement précoce de l'allemand",
+                "Mineure au choix",
+                "LVE au choix",
+                "Ciulture numérique",
+                "UEO"
+            ],
+            "coeff": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                3,
+                2,
+                2,
+                6,
+                2,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 4": {
+            "maj": 7,
+            "min": 1,
+            "tra": 2,
+            "cours": [
+                "Grammaire",
+                "Allemand du tourisme",
+                "Version littéraire",
+                "Thème littéraire",
+                "Civilisation des pays de langue allemande de la fin du Saint-Empire Romain Germanique à 1914",
+                "Littérature des pays germanophones au XIXème siècle de la fin du romantisme au Naturalisme",
+                "Méthodologie disciplinaire : Analyse et production filmique",
+                "Mineure au choix",
+                "LVE au choix",
+                "UEO"
+            ],
+            "coeff": [
+                3,
+                2,
+                2,
+                2,
+                2,
+                3,
+                2,
+                6,
+                2,
+                2
+            ]
+        }
+    },
+    "LLCER Allemand L3": {
+        "SEMESTRE 5": {
+            "maj": 7,
+            "min": 0,
+            "tra": 0,
+            "cours": [
+                "Thème",
+                "Version",
+                "Mentorat",
+                "Face à Face - Tandem-Kurs mit fr. und dt. Studierenden",
+                "Choix selon le projet de l'étudiant",
+                "Stage + soutenance",
+                "Mémoire de bachelor + soutenance"
+            ],
+            "coeff": [
+                2,
+                2,
+                3,
+                2,
+                9,
+                2,
+                10
+            ]
+        },
+        "SEMESTRE 6": {
+            "maj": 8,
+            "min": 1,
+            "tra": 3,
+            "cours": [
+                "Analyse de séquences grammaticales",
+                "Allemand du monde économique, politique et social",
+                "Version littéraire et journalistique",
+                "Thème littéraire et journalistique",
+                "Littérature des pays germanophones depuis 1945",
+                "Civilisation des pays de langue allemande depuis 1945",
+                "Prépro : Didactique",
+                "Méthodologie disciplinaire : Initiation à la recherche",
+                "Mineure au choix",
+                "LVE au choix",
+                "STAGE",
+                "UEO"
+            ],
+            "coeff": [
+                2,
+                2,
+                2,
+                2,
+                3,
+                3,
+                2,
+                2,
+                6,
+                2,
+                2,
+                2
+            ]
+        }
+    },
+    "LLCER Anglais L1": {
+        "SEMESTRE 1": {
+            "maj": 5,
+            "min": 1,
+            "tra": 3,
+            "cours": [
+                "Grammaire et langue écrite",
+                "Thème grammatical et version",
+                "Phonétique et langue orale",
+                "Culture générale",
+                "Culture générale",
+                "Mineure au choix",
+                "LVE au choix",
+                "Passeport documentaire",
+                "UEO"
+            ],
+            "coeff": [
+                4,
+                4,
+                4,
+                4,
+                2,
+                6,
+                2,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 2": {
+            "maj": 6,
+            "min": 1,
+            "tra": 3,
+            "cours": [
+                "Grammaire",
+                "Thème et version",
+                "Phonétique et langue orale",
+                "Littérature britannique américaine",
+                "Civilisation britannique et américaine",
+                "Prépro : Métiers appliqués à la discipline",
+                "Mineure au choix",
+                "LVE au choix",
+                "Communication orale et écrite",
+                "UEO"
+            ],
+            "coeff": [
+                2,
+                3,
+                3,
+                4,
+                4,
+                2,
+                6,
+                2,
+                2,
+                2
+            ]
+        }
+    },
+    "LLCER Anglais L2": {
+        "SEMESTRE 3": {
+            "maj": 5,
+            "min": 1,
+            "tra": 3,
+            "cours": [
+                "Linguistique",
+                "Thème et version",
+                "Phonétique et langue orale",
+                "Littérature",
+                "Communication orale et écrite",
+                "Mineure au choix",
+                "LVE au choix",
+                "UEO",
+                "Prépo : anglais professionnel 1"
+            ],
+            "coeff": [
+                3,
+                4,
+                4,
+                5,
+                2,
+                6,
+                2,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 4": {
+            "maj": 6,
+            "min": 1,
+            "tra": 3,
+            "cours": [
+                "Linguistique et Phonologie",
+                "Thème et version",
+                "Langue orale",
+                "Civilisation",
+                "Prépro:Anglais professionnel 2",
+                "Communication écrite et orale",
+                "Mineure au choix",
+                "LVE au choix",
+                "Culture numérique",
+                "UEO"
+            ],
+            "coeff": [
+                3,
+                3,
+                3,
+                5,
+                2,
+                2,
+                6,
+                2,
+                2,
+                2
+            ]
+        }
+    },
+    "LLCER Anglais L3": {
+        "SEMESTRE 5": {
+            "maj": 6,
+            "min": 1,
+            "tra": 3,
+            "cours": [
+                "Linguistique",
+                "Civilisation",
+                "Littérature",
+                "Théme et version littéraires",
+                "Langue orale",
+                "Etudes de genre",
+                "Mineure au choix",
+                "LVE au choix",
+                "Culture numérique",
+                "UEO"
+            ],
+            "coeff": [
+                3,
+                4,
+                4,
+                3,
+                2,
+                2,
+                6,
+                2,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 6": {
+            "maj": 6,
+            "min": 1,
+            "tra": 3,
+            "cours": [
+                "Linguistique",
+                "Thème et Version journalistique",
+                "Langue orale",
+                "Civlisation britannique et américaine",
+                "Littérature britanique et américaine",
+                "Initiation à la recherche",
+                "Mineure au choix",
+                "LVE au choix",
+                "Stage",
+                "UEO"
+            ],
+            "coeff": [
+                3,
+                3,
+                2,
+                4,
+                4,
+                2,
+                6,
+                2,
+                2,
+                2
+            ]
+        }
+    },
+    "LEA Anglais-Mandarin L1": {
+        "SEMESTRE 1": {
+            "maj": 8,
+            "min": 1,
+            "tra": 3,
+            "cours": [
+                "Grammaire anglaise",
+                "Phonétique fondamentale anglais",
+                "Phonétique fondamentale du chinois et pratique orale",
+                "TRADUCTION",
+                "Caractères chinois",
+                "Civlisation orientée LEA",
+                "LVE Chinois",
+                "Initiation au Droit",
+                "Mineure au choix",
+                "UEO",
+                "Prépro : expression orale et écrite ciblée LEA/monde du travail anglais",
+                "Prépro chinois de communication en laboratoire"
+            ],
+            "coeff": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                4,
+                2,
+                6,
+                2,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 2": {
+            "maj": 8,
+            "min": 1,
+            "tra": 3,
+            "cours": [
+                "Grammaire anglaise",
+                "LVE Chinois",
+                "Phonétique fondamentale anglais",
+                "Phonétique fondamentale anglais",
+                "Phonétique fondamentale anglais",
+                "Initiation à l'économie",
+                "Caractères chinois 2",
+                "Civilisation orientée LEA",
+                "Mineure au choix",
+                "UEO",
+                "Prépro : expression orale et écrite ciblée LEA/monde du travail anglais",
+                "Prépro chinois de communication en laboratoire"
+            ],
+            "coeff": [
+                2,
+                4,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                6,
+                2,
+                2,
+                2
+            ]
+        }
+    },
+    "LEA Anglais-Mandarin L2": {
+        "SEMESTRE 3": {
+            "maj": 8,
+            "min": 1,
+            "tra": 3,
+            "cours": [
+                "Linguistique anglaise",
+                "Grammaire chinoise",
+                "Thème et version anglais journalistique, technique",
+                "langue vivante: chinois",
+                "Civilisation orientée LEA chinois",
+                "Economie",
+                "Droit",
+                "Prépro: chinois de communication en laboratoire",
+                "Mineure au choix",
+                "Prépro : expression orale et écrite ciblée LEA/monde du travail anglais",
+                "LVE au choix",
+                "UEO"
+            ],
+            "coeff": [
+                1,
+                2,
+                2,
+                4,
+                3,
+                2,
+                2,
+                2,
+                6,
+                2,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 4": {
+            "maj": 9,
+            "min": 1,
+            "tra": 3,
+            "cours": [
+                "Linguistique anglaise",
+                "Grammaire chinoise",
+                "Thème et version anglais journalistique, technique",
+                "langue vivante: chinois",
+                "Civilisation orientée LEA chinois",
+                "Economie",
+                "Droit",
+                "Prépro: chinois de communication en laboratoire",
+                "chinois de communication en laboratoire 4",
+                "Mineure au choix",
+                "LVE au choix",
+                "UEO",
+                "Culture numérique"
+            ],
+            "coeff": [
+                1,
+                2,
+                2,
+                4,
+                3,
+                2,
+                2,
+                1,
+                1,
+                6,
+                2,
+                2,
+                2
+            ]
+        }
+    },
+    "LEA Anglais-Mandarin L3": {
+        "SEMESTRE 5": {
+            "maj": 6,
+            "min": 1,
+            "tra": 3,
+            "cours": [
+                "Thème et version en anglais",
+                "LVE Chinois",
+                "Civilisation orientée LEA",
+                "Prépro : préparation professionnelle en expression orale et écrite ciblée monde du travail en chinois",
+                "Prépro : anglais",
+                "Droit",
+                "Mineure au choix",
+                "LVE au choix",
+                "UEO",
+                "Culture numérique"
+            ],
+            "coeff": [
+                3,
+                4,
+                4,
+                3,
+                2,
+                3,
+                6,
+                2,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 6": {
+            "maj": 7,
+            "min": 1,
+            "tra": 3,
+            "cours": [
+                "Thème et version en anglais",
+                "LVE Chinois",
+                "Civilisation orientée LEA",
+                "Economie",
+                "Initiation à la recherche",
+                "Prépro : préparation professionnelle en expression orale et écrite ciblée monde du travail en chinois",
+                "Prépro anglais",
+                "Mineure au choix",
+                "LVE au choix",
+                "UEO",
+                "Stage"
+            ],
+            "coeff": [
+                3,
+                4,
+                3,
+                3,
+                2,
+                3,
+                2,
+                6,
+                2,
+                2,
+                2
+            ]
+        }
+    },
+    "LLCER Créole L3": {
+        "SEMESTRE 5": {
+            "maj": 8,
+            "min": 1,
+            "tra": 3,
+            "cours": [
+                "Mascareignes au XVIIIème siècle mutulalisé avec département d'Histoire",
+                "Linguistique et grammaire créole",
+                "Langue, langage et situations d'illettrisme",
+                "Compétences méthodologiques : données terrain",
+                "Méthodologie de la langue écrite en créole",
+                "Ethnographie, recherches de terrain",
+                "Communication écrite et orale",
+                "Ethnologie des espaces créoles du sud-ouest",
+                "Créole et espaces publics",
+                "LVE au choix",
+                "UEO",
+                "Prépro : visites et analyses d'espaces professionnels créolophones"
+            ],
+            "coeff": [
+                4,
+                2,
+                2,
+                2,
+                2,
+                2,
+                1,
+                3,
+                6,
+                2,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 6": {
+            "maj": 7,
+            "min": 1,
+            "tra": 3,
+            "cours": [
+                "Linguistique et pragmatique mutualisé avec Lettres",
+                "Littératures créoles",
+                "Initiation à la recherche en créole",
+                "Traduction:version et thème",
+                "Approches du créole comme langue professionnelle",
+                "Prévenir et lutter contre l'illettrisme mutualisé avec DU Illettrisme",
+                "La créolisation culturelle dans le sud-ouest de l'OI mutualisé avec SS",
+                "Expression orale Créole",
+                "Stage",
+                "LVE au choix",
+                "UEO"
+            ],
+            "coeff": [
+                3,
+                4,
+                2,
+                3,
+                1,
+                2,
+                3,
+                6,
+                2,
+                2,
+                2
+            ]
+        }
+    },
+    "LLCER Espagnol L1": {
+        "SEMESTRE 1": {
+            "maj": 8,
+            "min": 1,
+            "tra": 3,
+            "cours": [
+                "Grammaire espagnole",
+                "ECUE Thème",
+                "ECUE Version",
+                "ECUE Civilisation Espagnole",
+                "ECUE Civilisation Hispano-Américaine",
+                "ECUE Littérature Hispano-Américaine",
+                "ECUE Littérature Espagnole",
+                "Renforcement de la langue orale et écrite française",
+                "Mineure au choix",
+                "LVE au choix",
+                "Passeport documentaire",
+                "UEO"
+            ],
+            "coeff": [
+                4,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                6,
+                2,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 2": {
+            "maj": 9,
+            "min": 1,
+            "tra": 3,
+            "cours": [
+                "Grammaire espagnole",
+                "ECUE Thème",
+                "ECUE Version",
+                "ECUE Expression orale",
+                "ECUE Civilisation Espagnole",
+                "ECUE Civilisation Hispano-Américaine",
+                "ECUE Littérature Hispano-Américaine",
+                "ECUE Littérature Espagnole",
+                "Renforcement de la langue orale et écrite française",
+                "Mineure au choix",
+                "LVE au choix",
+                "UEO",
+                "Prépo : métiers appliqués à la discipline"
+            ],
+            "coeff": [
+                3,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                1,
+                6,
+                2,
+                2,
+                2
+            ]
+        }
+    },
+    "LLCER Espagnol L2": {
+        "SEMESTRE 3": {
+            "maj": 8,
+            "min": 1,
+            "tra": 3,
+            "cours": [
+                "ECUE Thème",
+                "ECUE Version",
+                "ECUE Expression orale",
+                "Littérature espagnole du XVIIIe siècle",
+                "Littérature Hispano-américaine : Le romantisme",
+                "Initiation à la linguistique",
+                "Histoire moderne de l'Espagne",
+                "Prépro : métiers des langues et des lettres",
+                "Mineure au choix",
+                "LVE au choix",
+                "UEO",
+                "Culture numérique"
+            ],
+            "coeff": [
+                2,
+                2,
+                1,
+                3,
+                3,
+                2,
+                3,
+                2,
+                6,
+                2,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 4": {
+            "maj": 8,
+            "min": 1,
+            "tra": 3,
+            "cours": [
+                "Linguistique hispanique",
+                "ECUE Thème",
+                "ECUE Version",
+                "ECUE Expression orale",
+                "Littérature espagnole du XIXe siècle",
+                "Histoire et civilisation espagnoles",
+                "Histoire et civilisation hispano-américaines XVIII-XIX",
+                "Renforcement de la langue orale et écrite française",
+                "Mineure au choix",
+                "LVE au choix",
+                "UEP",
+                "Prépro : FLE"
+            ],
+            "coeff": [
+                3,
+                2,
+                2,
+                1,
+                3,
+                3,
+                3,
+                1,
+                6,
+                2,
+                2,
+                2
+            ]
+        }
+    },
+    "LLCER Espagnol L3": {
+        "SEMESTRE 5": {
+            "maj": 10,
+            "min": 1,
+            "tra": 3,
+            "cours": [
+                "ECUE Thème",
+                "ECUE Version",
+                "Littérature espagnole. Du moyen-Age au siècle d'or",
+                "Littérature hispano-américaine de l'époque",
+                "Histoire et civilisation espagnoles",
+                "Histoire et civilisation Hispano-américaines. Du XVIe au XVIIe",
+                "ECUE Cinéma",
+                "ECUE Peinture",
+                "Linguistique hispanique",
+                "Expression orale et laboratoire des langues 1",
+                "Mineure au choix",
+                "LVE au choix",
+                "UEO",
+                "Culture numérique"
+            ],
+            "coeff": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                1,
+                1,
+                2,
+                2,
+                6,
+                2,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 6": {
+            "maj": 9,
+            "min": 1,
+            "tra": 3,
+            "cours": [
+                "Linguistique hispanique",
+                "ECUE Traduction littéraire",
+                "EC UE Expression orale/ -Laboratoire",
+                "Littérature espagnole des XXe et XXIe siècles",
+                "Littérature hispano-américaine des XXe et XXIe siècles",
+                "Histoire du temps présent de l'Espagne",
+                "Histoire et civilisation hispano-américaines des XXe et XXIe siècles",
+                "Peinture et cinéma des mondes hispaniques",
+                "Prépro : Métiers des langues et des lettres",
+                "Mineure au choix",
+                "LVE au choix",
+                "Prépro : stage",
+                "UEO"
+            ],
+            "coeff": [
+                2,
+                3,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                6,
+                2,
+                2,
+                2
+            ]
+        }
+    },
+    "Géographie L1": {
+        "SEMESTRE 1": {
+            "maj": 4,
+            "min": 1,
+            "tra": 3,
+            "cours": [
+                "Espaces, territoires, et paysages",
+                "Système terre et changement globaux",
+                "Savoirs, données, image",
+                "Lire le monde : l'actualité décryptée par la géographie",
+                "Mineure au choix",
+                "LVE au choix",
+                "Passeport documentaire",
+                "UEO"
+            ],
+            "coeff": [
+                5,
+                5,
+                4,
+                4,
+                6,
+                2,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 2": {
+            "maj": 4,
+            "min": 1,
+            "tra": 3,
+            "cours": [
+                "Biogéographie et climats de la terre",
+                "Commentaire de carte et croquis et synthèse méthodologie disciplinaire",
+                "Mondialisation et défis",
+                "Géographie sociale et culturelle",
+                "Mineure au choix",
+                "LVE au choix",
+                "Terrain",
+                "UEO"
+            ],
+            "coeff": [
+                5,
+                4,
+                5,
+                4,
+                6,
+                2,
+                2,
+                2
+            ]
+        }
+    },
+    "Géographie L2": {
+        "SEMESTRE 3": {
+            "maj": 5,
+            "min": 1,
+            "tra": 3,
+            "cours": [
+                "Changements climatiques, adaptations et résilience",
+                "Nouvelle géographie de l'Europe, enjeux et défis",
+                "Dynamiques des espaces urbains, periurbains et ruraux",
+                "Cartographie et statistique : méthodologie disciplinaire",
+                "Géopolitique, acteurs et conflits",
+                "Mineure au choix",
+                "LVE au choix",
+                "Culture numérique",
+                "UEO"
+            ],
+            "coeff": [
+                4,
+                4,
+                4,
+                3,
+                3,
+                6,
+                2,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 4": {
+            "maj": 5,
+            "min": 1,
+            "tra": 3,
+            "cours": [
+                "L'espace français et ses dynamiques",
+                "Ressources naturelles, enjeux, aménagement",
+                "Gouvernance territoriale",
+                "Analyse statistique bivariée",
+                "Migrations, diasporas et mobilités",
+                "Mineure au choix",
+                "LVE au choix",
+                "Méthodologie : projet voltaire",
+                "UEO"
+            ],
+            "coeff": [
+                4,
+                4,
+                4,
+                3,
+                3,
+                6,
+                2,
+                2,
+                2
+            ]
+        }
+    },
+    "Géographie L3": {
+        "SEMESTRE 5": {
+            "maj": 6,
+            "min": 1,
+            "tra": 3,
+            "cours": [
+                "Flux, Hubs et réseaux",
+                "Dynamiques littorales et littoralisation",
+                "Dynamiques territoriales des espacesInsulaires",
+                "Diagnostics territoriaux et projets deTerritoire",
+                "Aménagement : contextes institutionnels etEnjeux",
+                "Pratiques et usages du Web",
+                "Mineure au choix",
+                "LVE au choix",
+                "UEO",
+                "Culture numérique"
+            ],
+            "coeff": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                6,
+                2,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 6": {
+            "maj": 6,
+            "min": 1,
+            "tra": 3,
+            "cours": [
+                "Politiques d'aménagement territorial et de développement local",
+                "Mondes inégaux",
+                "Enjeux territoriaux dans l'Océan Indien",
+                "Montage et gestion de projet",
+                "Dynamiques territoriales et valorisation touristiques",
+                "Communication et controverses dans l'espace public",
+                "Mineure au choix",
+                "LVE au choix",
+                "Stage",
+                "UEO"
+            ],
+            "coeff": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                6,
+                2,
+                2,
+                2
+            ]
+        }
+    },
+    "Histoire L1": {
+        "SEMESTRE 1": {
+            "maj": 6,
+            "min": 1,
+            "tra": 3,
+            "cours": [
+                "Europe de 1789 à 1914",
+                "L'Afrique contemporaine (XIXe-Xxe s.)",
+                "La France 1789 à 1814",
+                "Le monde au XVIème siècle",
+                "Prépro méthodologie de la discipline",
+                "Renforcement de la langue orale et écrite française",
+                "Mineure au choix",
+                "Passeport documentaire",
+                "LVE au choix",
+                "UEO"
+            ],
+            "coeff": [
+                4,
+                4,
+                4,
+                4,
+                1,
+                1,
+                6,
+                2,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 2": {
+            "maj": 5,
+            "min": 1,
+            "tra": 3,
+            "cours": [
+                "Histoire ancienne : Orient Egypte, Grèce, Rome du Vème millénaire au 1er millénaire av J.C.",
+                "Asie ancienne",
+                "Haut moyen âge IVème siècle - Xème",
+                "Amérique ancienne (jusqu'au XVIème siècle)",
+                "Renforcement de la langue orale et écrite",
+                "Mineure au choix",
+                "LVE au choix",
+                "UEO",
+                "Méthodologie de travail en histoire"
+            ],
+            "coeff": [
+                4,
+                4,
+                4,
+                4,
+                2,
+                6,
+                2,
+                2,
+                2
+            ]
+        }
+    },
+    "Histoire L2": {
+        "SEMESTRE 3": {
+            "maj": 6,
+            "min": 1,
+            "tra": 3,
+            "cours": [
+                "Grèce et Rome : la Méditerranée antique",
+                "Afrique ancienne (jusqu'au XVIème siècle)",
+                "Société médiévale Xe siècle - Xve siècle",
+                "Asie moderne",
+                "Prépro : initiation à l'archéologie",
+                "Renforcement de la langue orale et écrite française",
+                "Mineure au choix",
+                "LVE au choix",
+                "Culture numérique",
+                "UEO"
+            ],
+            "coeff": [
+                4,
+                3,
+                3,
+                3,
+                4,
+                1,
+                6,
+                2,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 4": {
+            "maj": 6,
+            "min": 1,
+            "tra": 2,
+            "cours": [
+                "L'Europe au XVIIe siècle",
+                "Société de l'indianocéanie fin XVe-XVIIe s",
+                "Europe et le monde : d'une guerre à l'autre (1914-1945)",
+                "Amérique contemporaine",
+                "Renforcement de la langue orale et écrite",
+                "Méthodologie de la discipline",
+                "Mineure au choix",
+                "LVE au choix",
+                "UEO"
+            ],
+            "coeff": [
+                4,
+                4,
+                4,
+                3,
+                3,
+                2,
+                6,
+                2,
+                2
+            ]
+        }
+    },
+    "Histoire L3": {
+        "SEMESTRE 5": {
+            "maj": 6,
+            "min": 1,
+            "tra": 3,
+            "cours": [
+                "La France et le monde dans la seconde moitié du XXe siècle",
+                "La France et le monde au XVIIIe siècle",
+                "Les Mascareignes au XVIIIe siècle mutualisé avec les L3 créole",
+                "Histoire de La Réunion de 1914 aux années 60",
+                "Méthodologie : politiques, textes et images",
+                "Renforcement de la langue orale et écrite française",
+                "Mineure au choix",
+                "UEO",
+                "LVE au choix",
+                "Culture numérique"
+            ],
+            "coeff": [
+                3,
+                4,
+                4,
+                4,
+                2,
+                1,
+                6,
+                2,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 6": {
+            "maj": 7,
+            "min": 1,
+            "tra": 3,
+            "cours": [
+                "L'orient Romain de la fin de la république à l'Empire",
+                "Les villes en Grèce et à Rome",
+                "Villes, économie et échanges, Xe - XV e siècles",
+                "Cultures, images et représentations du monde",
+                "Historien dans la société",
+                "Renforcement de la langue orale et écrite",
+                "Méthodologie : histoire et mémoire",
+                "Mineure au choix",
+                "UEO",
+                "LVE au choix",
+                "Stage"
+            ],
+            "coeff": [
+                4,
+                3,
+                3,
+                3,
+                2,
+                1,
+                2,
+                6,
+                2,
+                2,
+                2
+            ]
+        }
+    },
+    "Information et communication L1": {
+        "SEMESTRE 1": {
+            "maj": 7,
+            "min": 1,
+            "tra": 3,
+            "cours": [
+                "Histoire des médias de masse",
+                "Pratique des discours médiatiques",
+                "Industries culturelles",
+                "Pratiques culturelles",
+                "Dispositifs et usages",
+                "Approches critiques",
+                "Lire le monde l'actualité décryptée par la géographie",
+                "Mineure au choix",
+                "LVE au choix",
+                "UEO",
+                "Passeport documentaire"
+            ],
+            "coeff": [
+                3,
+                2,
+                3,
+                2,
+                3,
+                2,
+                3,
+                6,
+                2,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 2": {
+            "maj": 6,
+            "min": 1,
+            "tra": 3,
+            "cours": [
+                "Publicité et marques",
+                "Communication des organisations",
+                "Communication interculturelle",
+                "Communication interpersonnelles",
+                "PRO 1 : Présentation des métiers de l'info- com à l'ère du numérique",
+                "Géographiesociale et culturelle",
+                "Mineure au choix",
+                "UEO",
+                "LVE au choix",
+                "Ateliers d’Écriture numérique"
+            ],
+            "coeff": [
+                3,
+                2,
+                3,
+                2,
+                5,
+                3,
+                6,
+                2,
+                2,
+                2
+            ]
+        }
+    },
+    "Information et communication L2": {
+        "SEMESTRE 3": {
+            "maj": 7,
+            "min": 1,
+            "tra": 3,
+            "cours": [
+                "Histoire des SIC",
+                "Etudes de réception",
+                "Documents et écriture",
+                "Ressources en ligne",
+                "Médiation et coopération culturelle dans l'Océan Indien",
+                "Médias dans l'Océan Indien",
+                "PRO 2 : Culture de l'information numérique",
+                "Mineure au choix",
+                "LVE au choix",
+                "Culture numérique",
+                "UEO"
+            ],
+            "coeff": [
+                3,
+                2,
+                1,
+                3,
+                3,
+                2,
+                4,
+                6,
+                2,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 4": {
+            "maj": 7,
+            "min": 1,
+            "tra": 3,
+            "cours": [
+                "Journalisme/sociologie des médias",
+                "Communication et culture",
+                "Etudes de genre et SIC",
+                "Communication, environnement et santé",
+                "Analyse de productions médiatiques",
+                "Analyse des souces d'information",
+                "PRO 3 : Pratiques et analyse des techniques professionnelles",
+                "Mineure au choix",
+                "LVE au choix",
+                "UEO",
+                "PRO 4 : RAV légère"
+            ],
+            "coeff": [
+                2,
+                2,
+                3,
+                2,
+                2,
+                2,
+                5,
+                6,
+                2,
+                2,
+                2
+            ]
+        }
+    },
+    "Information et communication L3": {
+        "SEMESTRE 5": {
+            "maj": 7,
+            "min": 1,
+            "tra": 3,
+            "cours": [
+                "Communication des organisations",
+                "Médiation culturelle",
+                "Théories de la réception",
+                "Communication et analyse de discours",
+                "PRO 5 : Concevoir un journal / Stratégie de communication",
+                "PRO 6 : Analyse et pratique du texte et de l'image",
+                "Créole et espace publics",
+                "Mineure au choix",
+                "LVE au choix",
+                "UEO",
+                "Culture numérique"
+            ],
+            "coeff": [
+                2,
+                2,
+                2,
+                2,
+                4,
+                4,
+                2,
+                6,
+                2,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 6": {
+            "maj": 6,
+            "min": 1,
+            "tra": 3,
+            "cours": [
+                "Approche critique de la société de l'information",
+                "Sociologie des médias et de la communication",
+                "Le temps des médias",
+                "Médiation des savoirs",
+                "PRO 7 : Initiation pratiques professionnelles",
+                "PRO 8 : RAV -PAO",
+                "Mineure au choix",
+                "Stage",
+                "UEO",
+                "LVE au choix"
+            ],
+            "coeff": [
+                3,
+                3,
+                2,
+                2,
+                4,
+                4,
+                6,
+                2,
+                2,
+                2
+            ]
+        }
+    },
+    "Lettres L1": {
+        "SEMESTRE 1": {
+            "maj": 6,
+            "min": 1,
+            "tra": 3,
+            "cours": [
+                "Dissertation",
+                "Commentaire",
+                "Littérature française et histoire culturelle",
+                "Le moyen-âge",
+                "Histoire de la littérature",
+                "Grammaire française",
+                "Mineure au choix",
+                "LVE au choix",
+                "Passeport documentaire",
+                "UEO"
+            ],
+            "coeff": [
+                4,
+                4,
+                2,
+                2,
+                3,
+                3,
+                6,
+                2,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 2": {
+            "maj": 7,
+            "min": 1,
+            "tra": 3,
+            "cours": [
+                "Roman",
+                "Poésie",
+                "Théâtre",
+                "Littérature Francophones",
+                "Littérature Comparées : Littératures mythes et sociétés",
+                "Initiation à la lecture image fixe et mobile",
+                "Initiation à la linguistique",
+                "Mineure au choix",
+                "LVE au choix",
+                "Métiers de la culture et de la communication",
+                "UEO"
+            ],
+            "coeff": [
+                2,
+                3,
+                3,
+                3,
+                2,
+                2,
+                3,
+                6,
+                2,
+                2,
+                2
+            ]
+        }
+    },
+    "Lettres L2": {
+        "SEMESTRE 3": {
+            "maj": 8,
+            "min": 1,
+            "tra": 3,
+            "cours": [
+                "Littérature du XVIIIe",
+                "Théories littéraires",
+                "Littérature des idées",
+                "Littérature française des XVIe et XVIIe",
+                "Litt. Francophones : identités, cultures et sociétés",
+                "Lectures comparatistes : l'altérité",
+                "Stylistique",
+                "Linguistique générale",
+                "Mineure au choix",
+                "LVE au choix",
+                "UEO",
+                "Culture numérique"
+            ],
+            "coeff": [
+                2,
+                2,
+                2,
+                2,
+                3,
+                2,
+                2,
+                3,
+                6,
+                2,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 4": {
+            "maj": 7,
+            "min": 1,
+            "tra": 3,
+            "cours": [
+                "Littérature française du XIXe à nos jours",
+                "Poétiques des genres",
+                "Langue et littérature du Moyen-âge",
+                "Théories comparatistes",
+                "Poétiques comparées",
+                "Art : cinéma",
+                "Linguistique et sociolinguistique",
+                "Mineure au choix",
+                "LVE au choix",
+                "Métiers des lettres et des arts 1",
+                "UEO"
+            ],
+            "coeff": [
+                3,
+                3,
+                2,
+                2,
+                3,
+                3,
+                2,
+                6,
+                2,
+                2,
+                2
+            ]
+        }
+    },
+    "Lettres L3": {
+        "SEMESTRE 5": {
+            "maj": 8,
+            "min": 1,
+            "tra": 3,
+            "cours": [
+                "Littérature et imaginaire",
+                "Littérature et société",
+                "Langue et littérature du Moyen-âge",
+                "Litt. Francophones",
+                "Interdisciplinarité",
+                "Littératures comparées I",
+                "Stylistique",
+                "Etude linguistique de textes",
+                "Mineure au choix",
+                "LVE au choix",
+                "Culture numérique",
+                "UEO"
+            ],
+            "coeff": [
+                2,
+                2,
+                2,
+                3,
+                2,
+                3,
+                2,
+                2,
+                6,
+                2,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 6": {
+            "maj": 7,
+            "min": 1,
+            "tra": 3,
+            "cours": [
+                "Littérature française : questions d'interprétation",
+                "Littérature et esthétique",
+                "Littératures comparées II",
+                "Interculturalité : littérature et contacts de culture",
+                "Littérature et art",
+                "Linguistique et pragmatique",
+                "Initiation à la recherche",
+                "Mineure au choix",
+                "LVE au choix",
+                "Stage",
+                "UEO"
+            ],
+            "coeff": [
+                3,
+                2,
+                3,
+                2,
+                2,
+                3,
+                3,
+                6,
+                2,
+                2,
+                2
+            ]
+        }
+    },
+    "Sciences Sociales L1": {
+        "SEMESTRE 1": {
+            "maj": 5,
+            "min": 1,
+            "tra": 3,
+            "cours": [
+                "Philosophie et sciences sociales",
+                "Initiation à la sociologie et à l'Anthropologie",
+                "Sociologie des civilisations précoloniales : Comores Madagascar",
+                "Savoirs, données et images",
+                "Renforcement de la langue écrite et orale",
+                "Mineure au choix",
+                "UEO",
+                "Passeport documentaire",
+                "LVE au choix"
+            ],
+            "coeff": [
+                4,
+                5,
+                3,
+                5,
+                1,
+                6,
+                2,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 2": {
+            "maj": 4,
+            "min": 1,
+            "tra": 3,
+            "cours": [
+                "Initiation à la psychologie",
+                "Sources et données en Sciences sociales",
+                "Anthropologie de la civilisation indienne",
+                "Mondialisation et défis",
+                "Mineure au choix",
+                "UEO",
+                "Renforcement de la langue écrite et orale",
+                "LVE au choix"
+            ],
+            "coeff": [
+                5,
+                4,
+                5,
+                4,
+                6,
+                2,
+                2,
+                2
+            ]
+        }
+    },
+    "Sciences Sociales L2": {
+        "SEMESTRE 3": {
+            "maj": 5,
+            "min": 1,
+            "tra": 3,
+            "cours": [
+                "Migration et mobilité",
+                "Anthropologie de l'Indianocéanie",
+                "Humanité et société",
+                "UE Pro les métiers des sciences sociales",
+                "Géopolitique, acteurs et conflits",
+                "Mineure au choix",
+                "UEO",
+                "Renforcement de la langue écrite et orale",
+                "LVE au choix"
+            ],
+            "coeff": [
+                5,
+                3,
+                3,
+                3,
+                4,
+                6,
+                2,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 4": {
+            "maj": 6,
+            "min": 1,
+            "tra": 3,
+            "cours": [
+                "Identité culture et patrimoine",
+                "Sociologie et anthropologie de la parenté",
+                "Les terrains de recherche en sciences sociales",
+                "Migrations, diasporas et mobilités",
+                "Sociologie et anthropologie générale",
+                "Renforcement de la langue écrite et orale française",
+                "Mineure au choix",
+                "Culture numérique",
+                "LVE au choix",
+                "UEO"
+            ],
+            "coeff": [
+                4,
+                4,
+                3,
+                3,
+                3,
+                1,
+                6,
+                2,
+                2,
+                2
+            ]
+        }
+    },
+    "Sciences Sociales L3": {
+        "SEMESTRE 5": {
+            "maj": 5,
+            "min": 1,
+            "tra": 3,
+            "cours": [
+                "Culture et lien social",
+                "Ethnologie des espaces créoles du sud-ouest de l'OI",
+                "Sociologie et anthropologie du religieux",
+                "Méthodologie et épistémologie en Sciences sociales",
+                "Renforcement de la langue écrite et orale française",
+                "Mineure au choix",
+                "Culture numérique",
+                "LVE au choix",
+                "UEO"
+            ],
+            "coeff": [
+                4,
+                5,
+                4,
+                4,
+                1,
+                6,
+                2,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 6": {
+            "maj": 6,
+            "min": 1,
+            "tra": 3,
+            "cours": [
+                "Genre et société",
+                "Sociologie de l'éducation",
+                "Parentalité et co éducation",
+                "Psychologie de l'apprentissage",
+                "La créolisation culturelle dans le sud-ouest de l'OI",
+                "Renforcement de la langue écrite et orale",
+                "Mineure au choix",
+                "Stage",
+                "UEO",
+                "LVE au choix"
+            ],
+            "coeff": [
+                3,
+                3,
+                3,
+                4,
+                4,
+                1,
+                6,
+                2,
+                2,
+                2
+            ]
+        }
+    },
+    "Sciences Sociales L1 LAS": {
+        "SEMESTRE 1": {
+            "maj": 4,
+            "min": 2,
+            "tra": 3,
+            "cours": [
+                "Philosophie et sciences sociales",
+                "Initiation à la sociologie et à l'Anthropologie",
+                "Sociologie des civilisations précoloniales : Comores Madagascar",
+                "Renforcement de la langue écrite et orale",
+                "Projet personnel et professionnel",
+                "Santé, maladie, thérapeutique, handicap-1",
+                "UEO",
+                "Passeport documentaire",
+                "LVE au choix"
+            ],
+            "coeff": [
+                5,
+                5,
+                4,
+                2,
+                3,
+                5,
+                2,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 2": {
+            "maj": 3,
+            "min": 3,
+            "tra": 3,
+            "cours": [
+                "Initiation à la psychologie",
+                "Sources et données en Sciences sociales",
+                "Anthropologie de la civilisation indienne",
+                "Projet personnel et professionnel",
+                "Santé, maladie, thérapeutique, handicap-2",
+                "Anglais",
+                "UEO",
+                "Renforcement de la langue écrite et orale",
+                "LVE au choix"
+            ],
+            "coeff": [
+                4,
+                4,
+                4,
+                5,
+                5,
+                2,
+                2,
+                2,
+                2
+            ]
+        }
+    },
+    "Sciences Sociales L3 LAS": {
+        "SEMESTRE 5": {
+            "maj": 5,
+            "min": 1,
+            "tra": 3,
+            "cours": [
+                "Culture et lien social",
+                "Ethnologie des espaces créoles du sud-ouest de l'OI",
+                "Sociologie et anthropologie du religieux",
+                "Méthodologie et épistémologie en Sciences sociales",
+                "Renforcement de la langue écrite et orale française",
+                "Connaissance de soi : du psychisme à la culture",
+                "Culture numérique",
+                "LVE au choix",
+                "UEO"
+            ],
+            "coeff": [
+                4,
+                5,
+                4,
+                4,
+                1,
+                6,
+                2,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 6": {
+            "maj": 5,
+            "min": 2,
+            "tra": 3,
+            "cours": [
+                "Genre et société",
+                "Sociologie de l'éducation",
+                "Parentalité et co éducation",
+                "Psychologie de l'apprentissage",
+                "La créolisation culturelle dans le sud-ouest de l'OI",
+                "Mineure au choix",
+                "Projet personnel et professionnel",
+                "Stage",
+                "UEO",
+                "LVE au choix"
+            ],
+            "coeff": [
+                3,
+                3,
+                3,
+                2,
+                2,
+                6,
+                5,
+                2,
+                2,
+                2
+            ]
+        }
+    },
+    "Sciences Sociales L2 LAS Voie A": {
+        "SEMESTRE 3": {
+            "maj": 4,
+            "min": 2,
+            "tra": 3,
+            "cours": [
+                "Migration et mobilité",
+                "Anthropologie de l'Indianocéanie",
+                "Humanité et société",
+                "UE Pro les métiers des sciences sociales",
+                "Mineure au choix",
+                "Sociologie de la santé",
+                "UEO",
+                "Renforcement de la langue écrite et orale",
+                "LVE au choix"
+            ],
+            "coeff": [
+                5,
+                3,
+                3,
+                3,
+                6,
+                4,
+                2,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 4": {
+            "maj": 4,
+            "min": 2,
+            "tra": 3,
+            "cours": [
+                "Identité culture et patrimoine",
+                "Sociologie et anthropologie de la parenté",
+                "Les terrains de recherche en sciences sociales",
+                "Sociologie et anthropologie générale",
+                "Projet personnel et professionnel",
+                "Santé, maladie, thérapeutique, handicap-2",
+                "Anglais",
+                "Culture numérique",
+                "LVE au choix",
+                "UEO"
+            ],
+            "coeff": [
+                3,
+                3,
+                3,
+                3,
+                5,
+                5,
+                2,
+                2,
+                2,
+                2
+            ]
+        }
+    },
+    "Sciences Sociales L2 LAS Voie B": {
+        "SEMESTRE 3": {
+            "maj": 4,
+            "min": 2,
+            "tra": 3,
+            "cours": [
+                "Migration et mobilité",
+                "Anthropologie de l'Indianocéanie",
+                "Humanité et société",
+                "UE Pro les métiers des sciences sociales",
+                "Projet Personnel et pro",
+                "Santé maladie",
+                "UEO",
+                "Renforcement de la langue écrite et orale",
+                "LVE au choix"
+            ],
+            "coeff": [
+                5,
+                3,
+                3,
+                3,
+                3,
+                5,
+                2,
+                2,
+                2
+            ]
+        }
     }
 }
-
