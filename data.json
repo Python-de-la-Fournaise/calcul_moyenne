@@ -1171,7 +1171,7 @@
                 "Algèbre 1",
                 "Outils mathématiques pour l'économie et la physique",
                 "Programmation Python",
-                "Anglais 1 (UFR DE)",
+                "Anglais 1",
                 "UE ouverture"
             ],
             "coeff": [
@@ -1197,7 +1197,7 @@
                 "Introduction à la macroéconomie",
                 "Statistiques descriptives",
                 "Projet Python",
-                "Anglais 2 (UFR DE)",
+                "Anglais 2",
                 "UE ouverture"
             ],
             "coeff": [
@@ -1226,7 +1226,7 @@
                 "Mathématiques discrètes",
                 "Structure de données 1",
                 "Structure de données 2",
-                "Anglais 3 (UFR DE)",
+                "Anglais 3",
                 "Base de données 1",
                 "UE ouverture"
             ],
@@ -1253,7 +1253,7 @@
                 "Macroéconomie ouverte",
                 "Microéconomie 2",
                 "Probabilités,  statistiques inférentielles et R",
-                "Anglais 4 (UFR DE)",
+                "Anglais 4",
                 "UE ouverture",
                 "Insertion professionnelle et techniques de communication"
             ],
@@ -1280,7 +1280,7 @@
                 "Macroéconomie dynamique",
                 "Commerce international",
                 "Économie monétaire internationale",
-                "Anglais 5 (UFR DE)",
+                "Anglais 5",
                 "Analyse de données",
                 "UE ouverture"
             ],
@@ -1306,7 +1306,7 @@
                 "Économie publique",
                 "Théorie des jeux",
                 "Bases de données 2",
-                "Anglais 6 (UFR DE)",
+                "Anglais 6",
                 "Expérience en milieu professionnel",
                 "UE ouverture"
             ],
@@ -2248,26 +2248,24 @@
             ]
         },
         "SEMESTRE 2": {
-            "maj": 5,
+            "maj": 4,
             "min": 1,
             "tra": 3,
             "cours": [
-                "Comptabilité générale",
+                "Droit constitutionnel",
                 "Introduction à la macroéconomie",
-                "Introduction à la microéconomie",
-                "Mathématiques pour l'économie et la gestion",
-                "Statistiques descriptives pour l'économie et la gestion",
+                "Comptabilité générale",
+                "Méthodes quantitatives (Statistiques)",
                 "Mineure au choix",
                 "Anglais (distantiel 50%)",
-                "PPP-Culture générale (distanciel 100%)",
+                "Culture générale (distantiel 100%)",
                 "UEO"
             ],
             "coeff": [
                 3,
-                4,
-                4,
-                3,
-                4,
+                5,
+                5,
+                5,
                 6,
                 2,
                 2,
@@ -2281,22 +2279,22 @@
             "min": 1,
             "tra": 3,
             "cours": [
-                "Comptabilité de gestion",
+                "Droit des obligations",
                 "Economie monétaire",
-                "Macroéconomie fermée",
-                "Mathématiques pour l'économie et la gestion",
-                "Microéconomie 1",
+                "Méthodes quantitatives (maths)",
+                "Sociologie (politique)",
+                "Comptabilité de gestion",
                 "Mineure au choix",
                 "Projet professionnel étudiant",
-                "Informatique pour l'économie et la gestion",
-                "Projet professionnel étudiant"
+                "Anglais (distanciel 50%)",
+                "Informatique"
             ],
             "coeff": [
+                4,
+                4,
+                4,
                 3,
                 3,
-                4,
-                4,
-                4,
                 6,
                 2,
                 2,
@@ -2308,11 +2306,11 @@
             "min": 1,
             "tra": 3,
             "cours": [
+                "Droit des affaires",
                 "Finance d'entreprise",
-                "Macroéconomie ouverte",
-                "Mathématiques pour l'économie et la gestion",
-                "Microéconomie 2",
-                "Probabilités et statistiques pour l'économie et la gestion",
+                "Sociologie de l'éducation",
+                "Méthodes quantitatives (Proba)",
+                "Marchés financiers",
                 "Mineure au choix",
                 "Anglais (distanciel 50%)",
                 "Insertion professionnelle et techniques de",
@@ -2333,26 +2331,24 @@
     },
     "Administration Economique et Sociale (AES) L3": {
         "SEMESTRE 5": {
-            "maj": 5,
+            "maj": 4,
             "min": 1,
             "tra": 3,
             "cours": [
-                "Commerce international",
-                "Histoire de la pensée économique",
-                "Introduction à la théorie des jeux",
-                "Macrodynamique appliquée",
-                "Statistique inférentielle",
+                "Droit administratif",
+                "Croissance et développement",
+                "Calcul économique et théorie des jeux",
+                "Statistiques appliquées",
                 "Mineure au choix",
                 "Anglais (distanciel 50% )",
                 "Outils numériques, valorisation et insertion",
                 "UEO"
             ],
             "coeff": [
-                4,
+                5,
+                5,
+                5,
                 3,
-                4,
-                3,
-                4,
                 6,
                 2,
                 2,
@@ -2364,11 +2360,11 @@
             "min": 1,
             "tra": 3,
             "cours": [
-                "Analyse des données",
-                "Croissance économique",
-                "Econométrie",
-                "Economie publique",
-                "Microéconomie approfondie",
+                "Droit du travail",
+                "Economie et finance internationale",
+                "Histoire de la pensée économique",
+                "Ressources naturelles et environnement",
+                "Méthodes d'enquête",
                 "Mineure au choix",
                 "Anglais (distanciel 50%)",
                 "Outils numériques, valorisation et insertion professionnelle",
@@ -2376,10 +2372,10 @@
             ],
             "coeff": [
                 4,
-                3,
+                4,
                 4,
                 3,
-                4,
+                3,
                 6,
                 2,
                 2,
@@ -2547,8 +2543,8 @@
             ]
         }
     },
-    "Economie Gestion": {
-        "L1": {
+    "Economie Gestion L1": {
+        "SEMESTRE 1": {
             "maj": 3,
             "min": 1,
             "tra": 3,
@@ -2565,6 +2561,145 @@
                 6,
                 6,
                 6,
+                6,
+                2,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 2": {
+            "maj": 5,
+            "min": 1,
+            "tra": 3,
+            "cours": [
+                "Comptabilité générale",
+                "Introduction à la macroéconomie",
+                "Introduction à la microéconomie",
+                "Mathématiques pour l'économie et la gestion",
+                "Statistiques descriptives pour l'économie et la gestion",
+                "Mineure au choix",
+                "Anglais (distantiel 50%)",
+                "PPP-Culture générale (distanciel 100%)",
+                "UEO"
+            ],
+            "coeff": [
+                3,
+                4,
+                4,
+                3,
+                4,
+                6,
+                2,
+                2,
+                2
+            ]
+        }
+    },
+    "Economie Gestion L2": {
+        "SEMESTRE 3": {
+            "maj": 5,
+            "min": 1,
+            "tra": 3,
+            "cours": [
+                "Comptabilité de gestion",
+                "Economie monétaire",
+                "Macroéconomie fermée",
+                "Mathématiques pour l'économie et la gestion",
+                "Microéconomie 1",
+                "Mineure au choix",
+                "Projet professionnel étudiant",
+                "Informatique pour l'économie et la gestion",
+                "Projet professionnel étudiant"
+            ],
+            "coeff": [
+                3,
+                3,
+                4,
+                4,
+                4,
+                6,
+                2,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 4": {
+            "maj": 5,
+            "min": 1,
+            "tra": 3,
+            "cours": [
+                "Finance d'entreprise",
+                "Macroéconomie ouverte",
+                "Mathématiques pour l'économie et la gestion",
+                "Microéconomie 2",
+                "Probabilités et statistiques pour l'économie et la gestion",
+                "Mineure au choix",
+                "Anglais (distanciel 50%)",
+                "Insertion professionnelle et techniques de",
+                "Système d'information et bases de données"
+            ],
+            "coeff": [
+                4,
+                3,
+                4,
+                3,
+                4,
+                6,
+                2,
+                2,
+                2
+            ]
+        }
+    },
+    "Economie Gestion L3": {
+        "SEMESTRE 5": {
+            "maj": 5,
+            "min": 1,
+            "tra": 3,
+            "cours": [
+                "Commerce international",
+                "Histoire de la pensée économique",
+                "Introduction à la théorie des jeux",
+                "Macrodynamique appliquée",
+                "Statistique inférentielle",
+                "Mineure au choix",
+                "Anglais (distanciel 50% )",
+                "Outils numériques, valorisation et insertion",
+                "UEO"
+            ],
+            "coeff": [
+                4,
+                3,
+                4,
+                3,
+                4,
+                6,
+                2,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 6": {
+            "maj": 5,
+            "min": 1,
+            "tra": 3,
+            "cours": [
+                "Analyse des données",
+                "Croissance économique",
+                "Econométrie",
+                "Economie publique",
+                "Microéconomie approfondie",
+                "Mineure au choix",
+                "Anglais (distanciel 50%)",
+                "Outils numériques, valorisation et insertion professionnelle",
+                "Stage anticipé ou UEO"
+            ],
+            "coeff": [
+                4,
+                3,
+                4,
+                3,
+                4,
                 6,
                 2,
                 2,
@@ -2801,8 +2936,8 @@
                 "Introduction au droit",
                 "Droit constitutionnel - I",
                 "Droit des personnes",
-                "Projet personnel et professionnel 1",
-                ": Sante maladie thérapeutique handicap 1",
+                "Histoire des institutions",
+                "Culture générale juridique et politique",
                 "Méthodologie",
                 "Anglais MOOC (100% distanciel)",
                 "UEO"
@@ -2811,8 +2946,8 @@
                 6,
                 6,
                 4,
-                3,
-                5,
+                4,
+                4,
                 2,
                 2,
                 2
@@ -2826,18 +2961,18 @@
                 "Droit de la famille",
                 "Droit constitutionnel - II",
                 "Institutions juridictionnelles & administratives",
-                "Projet personnel et professionnel - option santé 1",
-                "Sante maladie thérapeutique handicap 2",
-                "Anglais",
+                "Relations internationales",
+                "Culture générale économique",
+                "Anglais juridique (18 heures en distanciel)",
                 "PPP (UEOO)",
                 "Méthodologie"
             ],
             "coeff": [
                 6,
                 6,
+                6,
                 4,
-                5,
-                5,
+                4,
                 2,
                 2,
                 2
@@ -2873,7 +3008,7 @@
         "SEMESTRE 4": {
             "maj": 5,
             "min": 2,
-            "tra": 2,
+            "tra": 3,
             "cours": [
                 "Droit des obligations - II",
                 "Droit administratif général - II",
@@ -2881,9 +3016,10 @@
                 "Procédure civile",
                 "Droit fiscal",
                 "Institutions européennes",
-                "Projet personnel et professionnel",
+                "Histoire des idées politiques - I",
                 "Anglais juridique (18 heures en distanciel)",
-                "UEO"
+                "UEO",
+                "PPP"
             ],
             "coeff": [
                 5,
@@ -2892,7 +3028,8 @@
                 3,
                 2,
                 3,
-                5,
+                3,
+                2,
                 2,
                 2
             ]
@@ -2929,7 +3066,7 @@
         "SEMESTRE 6": {
             "maj": 5,
             "min": 2,
-            "tra": 2,
+            "tra": 3,
             "cours": [
                 "Système juridique de l'Union Européenne",
                 "Droit des société",
@@ -2937,9 +3074,10 @@
                 "PARCOURS DROIT 1",
                 "PARCOURS DROIT 2",
                 "Histoire de l'Etat et de l'administration",
-                "Projet personnel et professionnel",
+                "Histoire des Idées Politiques - II",
                 "Anglais juridique",
-                "UEO"
+                "UEO",
+                "PPP"
             ],
             "coeff": [
                 6,
@@ -2948,7 +3086,8 @@
                 3,
                 3,
                 3,
-                5,
+                3,
+                2,
                 2,
                 2
             ]
@@ -3063,6 +3202,168 @@
                 4,
                 3,
                 2,
+                2,
+                2
+            ]
+        }
+    },
+    "Droit LAS L1": {
+        "SEMESTRE 1": {
+            "maj": 3,
+            "min": 2,
+            "tra": 3,
+            "cours": [
+                "Introduction au droit",
+                "Droit constitutionnel - I",
+                "Droit des personnes",
+                "Projet personnel et professionnel 1",
+                "Sante maladie thérapeutique handicap 1",
+                "Méthodologie",
+                "Anglais MOOC (100% distanciel)",
+                "UEO"
+            ],
+            "coeff": [
+                6,
+                6,
+                4,
+                3,
+                5,
+                2,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 2": {
+            "maj": 3,
+            "min": 2,
+            "tra": 3,
+            "cours": [
+                "Droit de la famille",
+                "Droit constitutionnel - II",
+                "Institutions juridictionnelles & administratives",
+                "Projet personnel et professionnel - option santé 1",
+                "Sante maladie thérapeutique handicap 2",
+                "Anglais",
+                "PPP (UEOO)",
+                "Méthodologie"
+            ],
+            "coeff": [
+                6,
+                6,
+                4,
+                5,
+                5,
+                2,
+                2,
+                2
+            ]
+        }
+    },
+    "Droit LAS L2": {
+        "SEMESTRE 3": {
+            "maj": 4,
+            "min": 2,
+            "tra": 2,
+            "cours": [
+                "Droit des obligations - I",
+                "Droit administratif général - I",
+                "Droit pénal général - I",
+                "Finances publiques",
+                "Science politique",
+                "Histoire du droit privé",
+                "Anglais juridique",
+                "Préparation à la certification PIX"
+            ],
+            "coeff": [
+                6,
+                6,
+                3,
+                3,
+                4,
+                4,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 4": {
+            "maj": 5,
+            "min": 2,
+            "tra": 2,
+            "cours": [
+                "Droit des obligations - II",
+                "Droit administratif général - II",
+                "Droit pénal général - II",
+                "Procédure civile",
+                "Droit fiscal",
+                "Institutions européennes",
+                "Projet personnel et professionnel",
+                "Anglais juridique (18 heures en distanciel)",
+                "UEO"
+            ],
+            "coeff": [
+                5,
+                5,
+                3,
+                3,
+                2,
+                3,
+                5,
+                2,
+                2
+            ]
+        }
+    },
+    "Droit LAS L3": {
+        "SEMESTRE 5": {
+            "maj": 5,
+            "min": 2,
+            "tra": 2,
+            "cours": [
+                "Contrats spéciaux - I",
+                "Droits et libertés fondamentales",
+                "Droit des biens",
+                "PARCOURS DROIT 1",
+                "PARCOURS DROIT 2",
+                "Anthropologie du droit",
+                "Communication & Médias",
+                "Anglais juridique (18 heures en distanciel)",
+                "Préparation à la certification PIX (UEOO)"
+            ],
+            "coeff": [
+                6,
+                3,
+                3,
+                4,
+                4,
+                3,
+                3,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 6": {
+            "maj": 5,
+            "min": 2,
+            "tra": 2,
+            "cours": [
+                "Système juridique de l'Union Européenne",
+                "Droit des société",
+                "Procédure pénale",
+                "PARCOURS DROIT 1",
+                "PARCOURS DROIT 2",
+                "Histoire de l'Etat et de l'administration",
+                "Projet personnel et professionnel",
+                "Anglais juridique",
+                "UEO"
+            ],
+            "coeff": [
+                6,
+                3,
+                3,
+                3,
+                3,
+                3,
+                5,
                 2,
                 2
             ]
@@ -3366,6 +3667,181 @@
             "tra": 3,
             "cours": [
                 "Grammaire",
+                "Expression / compr. écrites et orales",
+                "Phonétique",
+                "Thème",
+                "Version",
+                "Panorama de la littérature des pays germanophones 2 : XXème et XXIème",
+                "Sociétés Contemporaines : Autriche et Suisse",
+                "Méthodologie disciplinaire : Lire une œuvre",
+                "Mineure au choix",
+                "LVE au choix",
+                "Prépro métiers appliquées à la discipline",
+                "UEO"
+            ],
+            "coeff": [
+                3,
+                2,
+                2,
+                2,
+                2,
+                2,
+                3,
+                2,
+                6,
+                2,
+                2,
+                2
+            ]
+        }
+    },
+    "LLCER Allemand L2": {
+        "SEMESTRE 3": {
+            "maj": 9,
+            "min": 1,
+            "tra": 3,
+            "cours": [
+                "Grammaire",
+                "Expression compréhension écrites et orales",
+                "Version journalistique",
+                "Thème journalistique",
+                "Civilisation et histoire des idées au XVIIIème siècle",
+                "Etude d'un thème",
+                "Littérature des pays germanophones de la Aufklärung au Romantisme",
+                "Méthodologie disciplinaire:analyse des documents iconographiques",
+                "Prépro : l'enseignement précoce de l'allemand",
+                "Mineure au choix",
+                "LVE au choix",
+                "Passeport numérique documentaire",
+                "UEO"
+            ],
+            "coeff": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                6,
+                2,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 4": {
+            "maj": 8,
+            "min": 1,
+            "tra": 3,
+            "cours": [
+                "Grammaire",
+                "Expression-compréhension écrites et orales",
+                "Allemand du tourisme",
+                "Version littéraire",
+                "Thème littéraire",
+                "Civilisation des pays de langue allemande de la fin du Saint-Empire Romain Germanique à 1914",
+                "Littérature des pays germanophones au XIXème siècle de la fin du romantisme au Naturalisme",
+                "Méthodologie disciplinaire : Analyse et production filmique",
+                "Mineure au choix",
+                "LVE au choix",
+                "FLE",
+                "UEO"
+            ],
+            "coeff": [
+                3,
+                2,
+                2,
+                2,
+                2,
+                2,
+                3,
+                2,
+                6,
+                2,
+                2,
+                2
+            ]
+        }
+    },
+    "LLCER Allemand L3": {
+        "SEMESTRE 5": {
+            "maj": 9,
+            "min": 1,
+            "tra": 3,
+            "cours": [
+                "Grammaire et linguistique",
+                "Expression-compréhension écrites et orales",
+                "Version littéraire",
+                "Thème littéraire",
+                "Littérature des pays germanophones du tournant du siècle à 1945",
+                "Civilisation des pays de langue allemande de 1914 à 1945",
+                "Etude d'un thème",
+                "Prépro disciplinaire : Allemand des affaires et interprétariat",
+                "Prépro : rédiger des documents pour l'insertion professionnelle",
+                "Mineure au choix",
+                "LVE au choix",
+                "Culture numérique",
+                "UEO"
+            ],
+            "coeff": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                6,
+                2,
+                2,
+                2
+            ]
+        },
+        "SEMESTRE 6": {
+            "maj": 8,
+            "min": 1,
+            "tra": 3,
+            "cours": [
+                "Analyse de séquences grammaticales",
+                "Allemand du monde économique, politique et social",
+                "Version littéraire et journalistique",
+                "Thème littéraire et journalistique",
+                "Littérature des pays germanophones depuis 1945",
+                "Civilisation des pays de langue allemande depuis 1945",
+                "Prépro : Didactique",
+                "Méthodologie disciplinaire : Initiation à la recherche",
+                "Mineure au choix",
+                "LVE au choix",
+                "STAGE",
+                "UEO"
+            ],
+            "coeff": [
+                2,
+                2,
+                2,
+                2,
+                3,
+                3,
+                2,
+                2,
+                6,
+                2,
+                2,
+                2
+            ]
+        }
+    },
+    "LLCER Franco-Allemand L1": {
+        "SEMESTRE 2": {
+            "maj": 8,
+            "min": 1,
+            "tra": 3,
+            "cours": [
+                "Grammaire",
                 "Expression compréhension écrites et orales",
                 "Phonétique",
                 "Thème",
@@ -3392,9 +3868,7 @@
                 2,
                 2
             ]
-        }
-    },
-    "LLCER Allemand L2": {
+        },
         "SEMESTRE 3": {
             "maj": 9,
             "min": 1,
@@ -3429,7 +3903,9 @@
                 2,
                 2
             ]
-        },
+        }
+    },
+    "LLCER Franco-Allemand L2": {
         "SEMESTRE 4": {
             "maj": 7,
             "min": 1,
@@ -3460,7 +3936,7 @@
             ]
         }
     },
-    "LLCER Allemand L3": {
+    "LLCER Franco-Allemand L3": {
         "SEMESTRE 5": {
             "maj": 7,
             "min": 0,
@@ -3482,39 +3958,6 @@
                 9,
                 2,
                 10
-            ]
-        },
-        "SEMESTRE 6": {
-            "maj": 8,
-            "min": 1,
-            "tra": 3,
-            "cours": [
-                "Analyse de séquences grammaticales",
-                "Allemand du monde économique, politique et social",
-                "Version littéraire et journalistique",
-                "Thème littéraire et journalistique",
-                "Littérature des pays germanophones depuis 1945",
-                "Civilisation des pays de langue allemande depuis 1945",
-                "Prépro : Didactique",
-                "Méthodologie disciplinaire : Initiation à la recherche",
-                "Mineure au choix",
-                "LVE au choix",
-                "STAGE",
-                "UEO"
-            ],
-            "coeff": [
-                2,
-                2,
-                2,
-                2,
-                3,
-                3,
-                2,
-                2,
-                6,
-                2,
-                2,
-                2
             ]
         }
     },
@@ -5214,7 +5657,7 @@
         },
         "SEMESTRE 4": {
             "maj": 4,
-            "min": 2,
+            "min": 3,
             "tra": 3,
             "cours": [
                 "Identité culture et patrimoine",
