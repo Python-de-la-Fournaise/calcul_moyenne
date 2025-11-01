@@ -6,7 +6,7 @@
 /*----------------*/
 body{
     background-color: #fdf3d6;
-    font-size: 18px; 
+    font-size: 18px;
 }
 
 h1, h3{
@@ -54,6 +54,10 @@ h1{
 .placeholder{
     font-style: italic;
     color: grey;
+}
+
+.choix_fil_prom{
+    display: none; 
 }
 
 /*----------------*/
@@ -112,6 +116,14 @@ input{
 .tra3{background-color: #C8E6EB;}
 .tra3 input{background-color: #C8E6EB; border: none;}
 
+table{
+    width: 100%;
+}
+
+table.notes thead th:nth-child(1) { width: 10%; }
+table.notes thead th:nth-child(2) { width: 65%; }
+table.notes thead th:nth-child(3) { width: 10%; }
+table.notes thead th:nth-child(4) { width: 15%; }
 
 /*----------------*/
 /*     POLICE     */
@@ -177,4 +189,3 @@ footer img{
     vertical-align:middle;
     margin-right:3px;
 }
-
