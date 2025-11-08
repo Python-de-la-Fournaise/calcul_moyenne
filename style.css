@@ -24,6 +24,11 @@ h1{
     margin:0;
 }
 
+footer h3{
+    padding: 0px;
+    margin: 0px;
+}
+
 /*----------------*/
 /*  SÉLECTEURS    */
 /*----------------*/
@@ -165,27 +170,84 @@ footer{
 
 footer #info{
   display: flex;
-  padding: 5px;
 }
 
 footer h3{
-  padding: 5px;
+  padding-top: 5px;
   color:white;
-  vertical-align: top;
 }
 
 footer table{
     color:white;
+    margin:0px;    
 }
 
-footer table tr td a{
+footer table tr a {
     text-decoration: none;
     color:white;
 }
 
+.footer-logo {
+  border-radius: 50%;     
+  border: 2px solid white; 
+  vertical-align: middle;
+}
+
 footer img{
-    width: 15px;
-    height: 15px;
+    width: 30px;
+    height: 30px;
     vertical-align:middle;
-    margin-right:3px;
+}
+
+#dev {
+  text-align: center;
+  color: white;
+}
+#dev a{
+    color: white;
+    text-decoration: underline;
+}
+
+/*-----------------------*/
+/*   Version verticale   */
+/*-----------------------*/
+
+
+
+@media (orientation: portrait){
+    h1{
+        font-size: 100px;
+    }
+    h2{
+        font-size: 40px;
+    } 
+    #choix_parcours, #ufr_select, #promotion_select, #filiere_select, #specialite_select {
+        font-size: 30px;
+    }
+
+    #tab {
+        flex-direction: column; /* les tables passent l'une sous l'autre */
+        align-items: center;
+        gap: 20px;
+    }
+    #tab table, #tab table input{
+        font-size: 30px;
+    }
+    #tab table{
+        width: 98%;
+        border-radius: 25px; 
+    }
+    h3{
+        font-size:60px;
+    }
+    footer img{
+        width: 60px;
+        height: 60px;
+    }
+    #dev i{
+        font-size: 8px;
+    }
+    #dev a{
+        font-size: 30px;
+    }
 }
